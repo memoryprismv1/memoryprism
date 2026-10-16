@@ -6,7 +6,7 @@
 
 **What can persist, what changes, what gets filtered out—and why?**
 
-[Framework PDF](MemoryPrism-Framework.pdf) · [DOI](https://doi.org/10.5281/zenodo.19287268) · [About](ABOUT.md) · [Starter Kit](starter-kit/Memory-Prism-Starter-Kit-Checklist-v1.0.md) · [Documentation](docs/Home.md) · [Portable AI skill](skill/README.md) · [Wiki sources](wiki-seed/Home.md)
+[Framework PDF](MemoryPrism-Framework.pdf) · [DOI](https://doi.org/10.5281/zenodo.19287268) · [About](ABOUT.md) · [Starter Kit](starter-kit/Memory-Prism-Starter-Kit-Checklist-v1.0.md) · [Documentation](docs/Home.md) · [Portable AI skill](skill/README.md) · [Skill source corpus](skill/references/source-corpus/README.md) · [Wiki sources](wiki-seed/Home.md)
 
 </div>
 
@@ -56,6 +56,12 @@ The starter kit is derived from the Memory Prism Framework and exactly these sev
 
 They are optional lenses during application, not seven boxes every topic must fill. See [the seven lenses](docs/seven-lenses.md).
 
+## Source library included with the skill
+
+The platform-neutral skill bundles searchable text for the Framework and complete texts for the four Foundation essays—**Boards, Audits, Identity, Flow Under Constraint**—and the three Supplementary essays—**Working Lines, No Sacred States, Accumulation Patterns**. The [source-corpus guide](skill/references/source-corpus/README.md) records canonical URLs, provenance, attribution, and licence.
+
+The essays are available to ground interpretation; their presence does not make every lens mandatory in every response. The published Framework PDF remains the canonical artifact at the repository root.
+
 ## Canonical record and citation
 
 The official site identifies the framework as **Memory Prism (v1.0)** and lists the DOI **[10.5281/zenodo.19287268](https://doi.org/10.5281/zenodo.19287268)**. Cite the versioned record rather than relying on a moving repository URL. The citation metadata is in [`CITATION.cff`](CITATION.cff); official source links are collected in [`SOURCES.md`](SOURCES.md).
@@ -66,7 +72,7 @@ The official site identifies the framework as **Memory Prism (v1.0)** and lists 
 MemoryPrism-Framework.pdf   Foundational framework document
 docs/                       Human-readable reference documentation
 starter-kit/                Canonical checklist source
-skill/                      Platform-neutral AI skill package
+skill/                      Platform-neutral skill, complete source corpus, and tests
 wiki-seed/                  Markdown pages prepared for GitHub Wiki
 assets/                     README visual assets
 CONTRIBUTING.md             Editorial and contribution guidance
