@@ -6,11 +6,13 @@
 
 **What can persist, what changes, what gets filtered out—and why?**
 
-[Framework PDF](MemoryPrism-Framework.pdf) · [Start with the checklist](docs/starter-kit.md) · [Explore the documentation](docs/Home.md) · [Build the portable AI skill](skill/README.md)
+[Framework PDF](MemoryPrism-Framework.pdf) · [Start with the checklist](docs/starter-kit.md) · [Explore the documentation](docs/Home.md) · [Portable AI skill](skill/README.md) · [Wiki page sources](wiki-seed/Home.md)
 
 </div>
 
 ---
+
+![Memory Prism entry map](assets/memory-prism-entry-map.svg)
 
 Memory Prism is a way to enter an unfamiliar problem by examining the conditions under which things form, move, persist, and fail. It is meant to open an investigation—not to replace domain knowledge, prescribe every step, or turn curiosity into a checklist exercise.
 
@@ -58,9 +60,12 @@ They are optional lenses during application, not seven boxes every topic must fi
 
 ```text
 MemoryPrism-Framework.pdf   Foundational framework document
-docs/                       Human-readable reference / wiki-style documentation
+docs/                       Human-readable reference documentation
 starter-kit/                Canonical checklist source
 skill/                      Platform-neutral AI skill package
+wiki-seed/                  Markdown pages prepared for GitHub Wiki
+assets/                     README visual assets
+CONTRIBUTING.md             Editorial and contribution guidance
 ```
 
 ## Editorial commitments
@@ -75,7 +80,7 @@ skill/                      Platform-neutral AI skill package
 
 ## Status
 
-The framework PDF remains the primary framework artifact. The checklist and AI skill are companion tools for entering and investigating topics. Documentation is being added incrementally; it should explain the system without silently expanding its required source corpus.
+The framework PDF remains the primary framework artifact. The checklist and AI skill are companion tools for entering and investigating topics. Documentation is organised in `docs/`; import-ready GitHub Wiki page sources live in `wiki-seed/`. The Wiki feature is enabled on this repository, but GitHub's separate Wiki store must be initialised/published separately from regular repository files.
 
 ## License and reuse
 
