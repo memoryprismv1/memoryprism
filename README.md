@@ -6,7 +6,7 @@
 
 **What can persist, what changes, what gets filtered out—and why?**
 
-[Framework PDF](MemoryPrism-Framework.pdf) · [Start with the checklist](docs/starter-kit.md) · [Explore the documentation](docs/Home.md) · [Portable AI skill](skill/README.md) · [Wiki page sources](wiki-seed/Home.md)
+[Framework PDF](MemoryPrism-Framework.pdf) · [Start with the checklist](starter-kit/Memory-Prism-Starter-Kit-Checklist-v1.0.md) · [Explore the documentation](docs/Home.md) · [Portable AI skill](skill/README.md) · [Wiki page sources](wiki-seed/Home.md)
 
 </div>
 
@@ -23,7 +23,7 @@ This repository began as a versioned home for the framework PDF. It is being exp
 | I want to… | Start with |
 |---|---|
 | Understand the framework's core concepts | [Framework PDF](MemoryPrism-Framework.pdf) |
-| Get traction on an unfamiliar topic | [Starter Kit checklist](docs/starter-kit.md) |
+| Get traction on an unfamiliar topic | [Starter Kit checklist](starter-kit/Memory-Prism-Starter-Kit-Checklist-v1.0.md) |
 | Understand the seven supporting lenses | [The seven lenses](docs/seven-lenses.md) |
 | See how to use MP without over-applying it | [How to use Memory Prism](docs/using-memory-prism.md) |
 | Use the approach with an AI assistant | [Portable skill package](skill/README.md) |
