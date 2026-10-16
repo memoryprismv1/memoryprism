@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Memory Prism starter map</title>
+  <desc id="desc">A flexible route from an observation through conditions, movement and persistence, then change or uncertainty, to a better next question. Optional lenses can be used along the way.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#10223b"/>
+      <stop offset="100%" stop-color="#172f4b"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#77d4c2"/>
+      <stop offset="100%" stop-color="#a6d9ff"/>
+    </linearGradient>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#a6d9ff"/>
+    </marker>
+  </defs>
+  <rect width="1200" height="360" rx="24" fill="url(#bg)"/>
+  <g fill="none" stroke="#a6d9ff" stroke-width="2.5" marker-end="url(#arrow)" opacity="0.9">
+    <path d="M220 145 H260"/>
+    <path d="M445 145 H485"/>
+    <path d="M670 145 H710"/>
+    <path d="M895 145 H935"/>
+  </g>
+  <g font-family="Inter,Segoe UI,Arial,sans-serif" text-anchor="middle">
+    <text x="52" y="54" text-anchor="start" font-size="15" font-weight="700" letter-spacing="2.4" fill="#77d4c2">MEMORY PRISM · STARTER KIT</text>
+    <text x="52" y="83" text-anchor="start" font-size="25" font-weight="700" fill="#ffffff">Find a useful route into the question</text>
+    <g>
+      <rect x="42" y="112" width="178" height="66" rx="12" fill="#203c5a" stroke="#77d4c2" stroke-width="1.6"/>
+      <text x="131" y="139" font-size="16" font-weight="700" fill="#ffffff">Observation</text>
+      <text x="131" y="159" font-size="12" fill="#d4e5f5">What caught attention?</text>
+    </g>
+    <g>
+      <rect x="265" y="112" width="180" height="66" rx="12" fill="#203c5a" stroke="#77d4c2" stroke-width="1.6"/>
+      <text x="355" y="139" font-size="16" font-weight="700" fill="#ffffff">Conditions</text>
+      <text x="355" y="159" font-size="12" fill="#d4e5f5">What makes it possible?</text>
+    </g>
+    <g>
+      <rect x="490" y="112" width="180" height="66" rx="12" fill="#203c5a" stroke="#77d4c2" stroke-width="1.6"/>
+      <text x="580" y="139" font-size="16" font-weight="700" fill="#ffffff">Movement + persistence</text>
+      <text x="580" y="159" font-size="12" fill="#d4e5f5">What moves or holds?</text>
+    </g>
+    <g>
+      <rect x="715" y="112" width="180" height="66" rx="12" fill="#203c5a" stroke="#77d4c2" stroke-width="1.6"/>
+      <text x="805" y="139" font-size="16" font-weight="700" fill="#ffffff">Change + uncertainty</text>
+      <text x="805" y="159" font-size="12" fill="#d4e5f5">Where does it shift or fail?</text>
+    </g>
+    <g>
+      <rect x="940" y="112" width="218" height="66" rx="12" fill="url(#accent)"/>
+      <text x="1049" y="139" font-size="16" font-weight="700" fill="#10223b">Next question</text>
+      <text x="1049" y="159" font-size="12" fill="#193e52">What would distinguish ideas?</text>
+    </g>
+    <path d="M1049 190 V222 H131 V190" fill="none" stroke="#77d4c2" stroke-width="1.5" stroke-dasharray="5 5" opacity="0.85"/>
+    <text x="600" y="242" font-size="14" fill="#d4e5f5">A flexible route, not a mandatory sequence · skip anything that adds no value</text>
+    <rect x="250" y="266" width="700" height="46" rx="23" fill="#0c1c30" stroke="#537391" stroke-width="1"/>
+    <text x="600" y="294" font-size="14" font-weight="600" fill="#b6d4e8">Optional lenses: Boards · Audits · Identity · Flow · Working Lines · No Sacred States · Accumulation</text>
+  </g>
+</svg>
