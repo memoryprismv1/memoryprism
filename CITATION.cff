@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: >-
+  If you use or discuss the Memory Prism framework, please cite the versioned
+  framework record through its DOI.
+title: "Memory Prism"
+type: other
+authors:
+  - name: "Memory Prism"
+version: "1.0"
+doi: "10.5281/zenodo.19287268"
+url: "https://www.memoryprism.com/framework"
+repository-code: "https://github.com/memoryprismv1/memoryprism"
+license: "CC-BY-NC-4.0"
+abstract: >-
+  A structural framework for examining how systems form, persist, change, and
+  fail under constraint. It organizes cross-domain inquiry around memory,
+  constraints, editors, and boards. It is not a predictive model or a
+  replacement for disciplinary expertise.

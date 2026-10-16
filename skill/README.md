@@ -8,6 +8,10 @@ This folder contains a platform-neutral skill definition intended to be adapted 
 - `references/starter-kit.md` — the canonical checklist reference.
 - `tests/SMOKE_TESTS.md` — practical behaviour tests and pass criteria.
 
+## Canonical source and reuse
+
+The framework source is published as Memory Prism v1.0 at https://doi.org/10.5281/zenodo.19287268. The repository's content licence is documented in [`../LICENSE.md`](../LICENSE.md), and the source URLs are collected in [`../SOURCES.md`](../SOURCES.md).
+
 ## Design principle
 
 The skill teaches an assistant how to use the Memory Prism starter kit selectively. It must not turn the checklist into an exhaustive protocol, replace domain expertise, or require the final answer to expose framework terminology.

@@ -4,6 +4,8 @@
 
 Memory Prism helps enter unfamiliar topics by examining the conditions under which things form, move, persist, change, and fail. It is an entry point for inquiry—not an exhaustive protocol or a substitute for domain knowledge.
 
+Canonical framework: [Memory Prism v1.0 — DOI 10.5281/zenodo.19287268](https://doi.org/10.5281/zenodo.19287268). See the [About page](https://www.memoryprism.com/about), [source index](https://github.com/memoryprismv1/memoryprism/blob/main/SOURCES.md), and [licence statement](https://github.com/memoryprismv1/memoryprism/blob/main/LICENSE.md).
+
 ## Start here
 
 - [The Framework](Framework) — the foundational framework artifact and source boundary.

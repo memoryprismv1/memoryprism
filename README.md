@@ -6,7 +6,7 @@
 
 **What can persist, what changes, what gets filtered out—and why?**
 
-[Framework PDF](MemoryPrism-Framework.pdf) · [Start with the checklist](starter-kit/Memory-Prism-Starter-Kit-Checklist-v1.0.md) · [Explore the documentation](docs/Home.md) · [Portable AI skill](skill/README.md) · [Wiki page sources](wiki-seed/Home.md)
+[Framework PDF](MemoryPrism-Framework.pdf) · [DOI](https://doi.org/10.5281/zenodo.19287268) · [About](ABOUT.md) · [Starter Kit](starter-kit/Memory-Prism-Starter-Kit-Checklist-v1.0.md) · [Documentation](docs/Home.md) · [Portable AI skill](skill/README.md) · [Wiki sources](wiki-seed/Home.md)
 
 </div>
 
@@ -16,7 +16,7 @@
 
 Memory Prism is a way to enter an unfamiliar problem by examining the conditions under which things form, move, persist, and fail. It is meant to open an investigation—not to replace domain knowledge, prescribe every step, or turn curiosity into a checklist exercise.
 
-This repository began as a versioned home for the framework PDF. It is being expanded carefully into a readable public reference and a platform-neutral AI skill package, while keeping the framework itself distinct from tools for applying it.
+This repository began as a versioned home for the Framework PDF and now includes the Starter Kit, reference documentation, and a platform-neutral AI skill. The published framework remains the primary source; these are companion tools for applying it.
 
 ## Start here
 
@@ -56,6 +56,10 @@ The starter kit is derived from the Memory Prism Framework and exactly these sev
 
 They are optional lenses during application, not seven boxes every topic must fill. See [the seven lenses](docs/seven-lenses.md).
 
+## Canonical record and citation
+
+The official site identifies the framework as **Memory Prism (v1.0)** and lists the DOI **[10.5281/zenodo.19287268](https://doi.org/10.5281/zenodo.19287268)**. Cite the versioned record rather than relying on a moving repository URL. The citation metadata is in [`CITATION.cff`](CITATION.cff); official source links are collected in [`SOURCES.md`](SOURCES.md).
+
 ## Repository map
 
 ```text
@@ -80,8 +84,8 @@ CONTRIBUTING.md             Editorial and contribution guidance
 
 ## Status
 
-The framework PDF remains the primary framework artifact. The checklist and AI skill are companion tools for entering and investigating topics. Documentation is organised in `docs/`; import-ready GitHub Wiki page sources live in `wiki-seed/`. The Wiki feature is enabled on this repository, but GitHub's separate Wiki store must be initialised/published separately from regular repository files.
+The framework PDF remains the primary framework artifact. The checklist and AI skill are companion tools for entering and investigating topics. Documentation is organised in `docs/`; prepared GitHub Wiki page sources live in `wiki-seed/`. The Wiki feature is enabled, but the separate Wiki pages must be initialised and published separately from regular repository files.
 
 ## License and reuse
 
-No repository-wide software or content license is declared here. Check the individual source record or contact the maintainer before reusing material beyond applicable copyright exceptions.
+The official Memory Prism site states **CC BY-NC 4.0** for Memory Prism v1.0. [`LICENSE.md`](LICENSE.md) documents the scope for original project content in this repository. Non-commercial sharing and adaptation are permitted under the licence terms; commercial use requires separate permission. Third-party materials retain their own rights. This is a content licence, not an OSI-approved open-source software licence.
