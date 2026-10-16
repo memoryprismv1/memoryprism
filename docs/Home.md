@@ -7,7 +7,7 @@ Memory Prism is a way to enter unfamiliar topics by asking what conditions make 
 ## Read or use
 
 - [The Framework](framework.md) — the foundational PDF and how this documentation relates to it.
-- [Starter Kit Checklist](starter-kit.md) — the practical entry point for a new topic.
+- [Starter Kit Checklist](../starter-kit/Memory-Prism-Starter-Kit-Checklist-v1.0.md) — the canonical full checklist.
 - [How to Use Memory Prism](using-memory-prism.md) — selective use, research, and when to stop.
 - [The Seven Lenses](seven-lenses.md) — the framework’s seven supporting essays as optional lenses.
 - [AI Skill Package](../skill/README.md) — platform-neutral instructions for assistants.
