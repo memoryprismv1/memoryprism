@@ -6,7 +6,7 @@ Memory Prism is a structural framework for examining how systems form, persist, 
 
 The project's public [About page](https://www.memoryprism.com/about) describes its origin in extended, adversarial questioning with AI. AI-assisted iteration and documentation are part of the project's stated working method; direction, rejection, and structural decisions remain human-led.
 
-This GitHub repository had a more practical origin. Its first commit, on 28 March 2026, described it as a place to upload PDF versions rather than compare binaries. It began as a home for the Framework PDF, not as a software project. The repository is now being expanded with companion documentation, the Memory Prism Starter Kit checklist, and a platform-neutral AI skill.
+This GitHub repository had a more practical origin. In late March 2026, Claude introduced the creator to Zenodo; the repository was then created as a simple place to keep PDF versions, rather than compare binaries. Its first commit, on 28 March 2026, explicitly described that purpose. It began as a home for the Framework PDF, not as a software project. The repository is now being expanded with companion documentation, the Memory Prism Starter Kit checklist, and a platform-neutral AI skill.
 
 ## What belongs here
 
