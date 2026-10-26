@@ -64,7 +64,7 @@ The essays are available to ground interpretation; their presence does not make 
 
 ## Canonical record and citation
 
-The official site identifies the framework as **Memory Prism (v1.0)** and lists the DOI **[10.5281/zenodo.19287268](https://doi.org/10.5281/zenodo.19287268)**. Cite the versioned record rather than relying on a moving repository URL. The citation metadata is in [`CITATION.cff`](CITATION.cff); official source links are collected in [`SOURCES.md`](SOURCES.md).
+The framework has two DOI forms: the **concept DOI [10.5281/zenodo.19287268](https://doi.org/10.5281/zenodo.19287268)** for general reference across versions, and the **version 1.0 DOI [10.5281/zenodo.19287269](https://doi.org/10.5281/zenodo.19287269)** for citing the specific release published in March 2026. The concept DOI resolves to the latest version. Citation guidance is in [`CITATION.cff`](CITATION.cff) and [`CITATION.md`](CITATION.md); official source links are collected in [`SOURCES.md`](SOURCES.md).
 
 ## Repository map
 
