@@ -6,7 +6,7 @@ Memory Prism is a way to enter unfamiliar topics by asking what conditions make 
 
 ## Read or use
 
-- [Canonical Framework DOI](https://doi.org/10.5281/zenodo.19287268) — cite the published Memory Prism v1.0 record.
+- [Framework concept DOI](https://doi.org/10.5281/zenodo.19287268) — general reference across versions; resolves to the latest version. For the specific v1.0 release, use [10.5281/zenodo.19287269](https://doi.org/10.5281/zenodo.19287269).
 - [About the project](../ABOUT.md) — origin, repository scope, and authorship notes.
 - [Sources and canonical URLs](../SOURCES.md) — the seven supporting essay links.
 - [License](../LICENSE.md) — CC BY-NC 4.0 scope and reuse notes.
@@ -60,7 +60,7 @@ The essays are not a seven-stage procedure. A lens earns its place only when it 
 
 ## Citation and reuse
 
-The official site identifies Memory Prism v1.0 with DOI [10.5281/zenodo.19287268](https://doi.org/10.5281/zenodo.19287268). Use that persistent record when citing the framework. See [`CITATION.cff`](../CITATION.cff) for machine-readable citation metadata, and [`LICENSE.md`](../LICENSE.md) for licence scope.
+Use the [concept DOI](https://doi.org/10.5281/zenodo.19287268) for general reference to Memory Prism across versions, or the [version 1.0 DOI](https://doi.org/10.5281/zenodo.19287269) when citing that specific release. See [`CITATION.cff`](../CITATION.cff) for machine-readable citation metadata, and [`LICENSE.md`](../LICENSE.md) for licence scope.
 
 ## Where the files live
 
