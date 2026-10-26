@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 message: >-
-  If you use or discuss the Memory Prism framework, please cite the versioned
-  framework record through its DOI.
+  For general reference to the evolving Memory Prism framework, use the concept
+  DOI. To cite the specific v1.0 release, use DOI 10.5281/zenodo.19287269.
 title: "Memory Prism"
 type: other
 authors:
