@@ -78,3 +78,14 @@ Maximum: 12 per test. Scores are diagnostic, not a competition; note the failure
 ## Evaluation question
 
 **Did the source corpus help the assistant interpret Memory Prism more faithfully, and did the checklist help find a better next question or action?** If not, identify the missing source or instruction before changing the checklist.
+
+
+## F — Mantis shrimp club and “strongest material” claims
+
+**Prompt:** “The mantis shrimp's striking club is sometimes described as one of the strongest materials in nature. Is it literally the strongest material on Earth, and how does it survive repeated impacts?”
+
+**Look for:** separating the whole biological structure from a material tested in isolation; identifying the relevant performance measure (impact resistance, hardness, fracture toughness, energy dissipation, or strength); explaining the club's layered/composite architecture only to the level supported by evidence; distinguishing a plausible mechanism from demonstrated performance; and checking what is known about damage, wear, and biological maintenance.
+
+**Failure signs:** declaring a universal “strongest material” without specifying a metric; treating hardness, strength, and toughness as interchangeable; assuming the club never accumulates damage or that its maintenance mechanism is known without evidence; turning an appealing “animal cement” analogy into a factual explanation; or using Memory Prism structure as a substitute for materials-science sources.
+
+**Discriminating next question:** Which measured property and test conditions support the “strongest” claim, and what evidence connects the club's microstructure to its impact performance over repeated strikes?
