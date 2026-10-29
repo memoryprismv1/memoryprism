@@ -205,3 +205,92 @@ Both conditions had the same evidence set available. Citations above document th
 **Useful next test:** For a cleaner comparison, run the same prompt in two genuinely separate contexts: one context receives only the historical prompt and shared domain sources; the other receives those same materials plus the Memory Prism skill and source corpus. Keep sources, output length expectations, and scoring criteria matched; then have an evaluator who did not draft the answers score them without knowing which condition produced which answer.
 
 **Run status:** Paired answer artifacts and qualitative rubric application recorded; evidence anchors checked. The controlled evaluation remains **not completed** because the baseline condition was contaminated by prior framework exposure.
+
+
+## 13. Protocol-repair attempt — matched evidence and prompt, 2026-10-29
+
+### Purpose
+
+The first pair in §12 was not an adequate controlled comparison. This second attempt holds the historical evidence set and requested scope constant, defines the baseline condition without the final Memory Prism instruction, and varies only whether the answer is instructed to use the MP skill selectively.
+
+**Important limitation:** This run still takes place in a conversation where the assistant has already read Memory Prism material. I cannot spawn a new, genuinely context-isolated model instance or an independent evaluator from the available tools. The baseline below is therefore a constrained baseline answer, not a framework-naive model output. This section improves prompt and evidence matching, but it does **not** solve context contamination. Scores must not be represented as a clean causal test.
+
+### Protocol
+
+**Common historical task:** Explain how gold became a monetary standard, from earlier use and coinage through silver/bimetallism, Britain, the classical international standard, its weakening, Bretton Woods and the 1971 end of official dollar-gold convertibility. Use historical sources, separate fact from interpretation, identify uncertainty and end with a useful unresolved question.
+
+**Shared evidence pack, available to both conditions:**
+
+1. Angela Redish, [“The Evolution of the Gold Standard in England,” *The Journal of Economic History*](https://www.cambridge.org/core/journals/journal-of-economic-history/article/abs/evolution-of-the-gold-standard-in-england/39716B824915B710EDF60D1E0643F5DE) — Britain’s 1816 move away from bimetallism, token silver coinage and the institutional/technical conditions supporting the gold standard.
+2. Johannes Wiegand, [“Destabilizing the Global Monetary System: Germany’s Adoption of the Gold Standard in the Early 1870s,” IMF Working Paper](https://www.imf.org/en/publications/wp/issues/2019/02/15/destabilizing-the-global-monetary-system-germanys-adoption-of-the-gold-standard-in-the-early-46548) — Germany’s 1871–73 decision, the fixed-exchange-rate context and consequences for international bimetallism.
+3. Bank of Canada, [“The Evolution of the International Monetary System”](https://www.bankofcanada.ca/2009/11/evolution-international-monetary-system/) — classical gold-standard operation and asymmetric adjustment difficulties.
+4. World Gold Council, [“The Classical Gold Standard”](https://www.gold.org/history-gold/the-classical-gold-standard) — overview of gold-standard arrangements and chronology. The Council has an institutional interest in gold, so its framing is not treated as independent proof.
+5. Federal Reserve History, [“Creation of the Bretton Woods System”](https://www.federalreservehistory.org/essays/bretton-woods-created) and [“Nixon Ends Convertibility of U.S. Dollars to Gold”](https://www.federalreservehistory.org/essays/gold-convertibility-ends) — the postwar arrangement, its 1958 operational start, the $35 official parity and the 1971 closure of the gold window.
+
+The same evidence pack is used for both outputs below. In a real clean-room replication, the baseline model would receive only the historical task and these sources; the MP condition would receive those same materials plus the skill and relevant source texts. That separate-context execution was **not** available in this run.
+
+### Condition A — baseline answer (no explicit MP instruction)
+
+Gold became a monetary material because it was durable, recognisable, scarce relative to many commodities, and could be weighed and standardised. Those qualities help explain why it was useful, but they do not by themselves explain why states chose gold over silver, why other states followed, or why convertibility rules lasted.
+
+Silver was widely used, and some monetary systems used both gold and silver at a legally fixed ratio. If the official ratio diverged from market values, the metal undervalued by law could be hoarded or exported. England’s 1816 Coinage Act formally abandoned bimetallism, limited silver’s legal-tender role and established the institutional conditions for a monometallic gold standard. Angela Redish’s research stresses a further mechanism: reliable subsidiary coinage depended on the ability to issue tokens that were difficult to counterfeit and credibly backed, supported by changes in minting technology and the Bank of England [1]. Britain’s full return to cash payments occurred in 1821, so the institutional change should not be compressed into one date.
+
+The classical international gold standard spread more broadly in the 1870s and 1880s, rather than being adopted everywhere at once. Newly unified Germany adopted gold in 1871–73, replacing the silver-based currencies used in many German states. Wiegand’s IMF paper argues that Germany’s decision was strategic in the setting after the Franco-Prussian War: it helped secure participation in the system of fixed exchange rates among major industrial economies and affected the trajectory of international bimetallism [2]. Access to London’s financial markets, relative gold and silver prices, and decisions by influential states all belong in the explanation; no single factor can be assumed to explain every country’s adoption.
+
+Under the classical standard, participating countries maintained a fixed gold value for their currencies and allowed conversion at that value. This made exchange rates predictable, helping international trade and finance. But it was a commitment backed by law and policy, not an automatic result of carrying gold. When gold left a country, authorities could face pressure to tighten credit or raise rates; lower prices, wages and income could then reduce imports or improve competitiveness. The adjustment was costly and asymmetric. The Bank of Canada notes that surplus countries did not always reinforce the adjustment mechanism, while wage and price stickiness made adjustment especially difficult for deficit countries [3]. The arrangement offered exchange-rate stability but restricted domestic policy choices.
+
+World War I disrupted the prewar system as governments suspended convertibility and financed wartime spending. Attempts to restore a gold-based system in the interwar years faced altered price levels, debt, political conflict and the Great Depression; the regime broke down during the 1930s [3, 4]. Bretton Woods, agreed in 1944 and operational in 1958, was different: currencies were pegged to the dollar at fixed but adjustable rates, while the United States promised official foreign holders conversion of dollars into gold at $35 per ounce [5]. Persistent U.S. external deficits increased foreign-held dollar claims while U.S. gold holdings constrained the promise. On 15 August 1971, President Nixon ended official dollar-gold convertibility; subsequent efforts to preserve fixed exchange rates failed, and the Bretton Woods system broke down [6].
+
+**Interpretation:** gold’s material properties explain some of its suitability, but monetary-standard status required state decisions, a credible convertibility regime, institutional capacity and international coordination. The regime’s later breakdown shows that a durable material cannot guarantee a durable monetary arrangement.
+
+**Open question:** Across countries adopting gold in the 1870s–1880s, did the timing line up more closely with changing gold-silver prices, strategic decisions by influential states, or trade and financial ties to London? A country-level comparison of adoption dates, laws, relative prices, trade exposure and reserve movements would help distinguish these explanations.
+
+### Condition B — Memory Prism-guided answer
+
+The historical puzzle is not just why gold made useful money; it is how gold became the anchor of a monetary arrangement that coordinated several countries, and why the arrangement later failed. The answer needs to keep separate the material, the domestic rules that defined currency in gold, and the international system built from states maintaining those rules.
+
+Gold’s durability, recognisability and ability to be weighed and standardised made it a plausible monetary material. Yet silver and bimetallism were real alternatives. A fixed legal ratio between gold and silver could diverge from market prices, making one metal undervalued under the rules and encouraging it to leave circulation. In England, the 1816 Coinage Act abandoned bimetallism and restricted silver to token coinage. Redish’s research identifies why this was not merely a declaration of preference: dependable subsidiary coinage needed technological capacity to prevent counterfeiting and institutional credibility behind the tokens [1]. The resumption of cash payments in 1821 is a further step in the chronology, not the same event as the 1816 legislation.
+
+Two Memory Prism lenses earn their place here. **Boards** asks what legal and institutional configuration made the arrangement work: what exactly was convertible, at what parity, who had the obligation to redeem it, and who could suspend the promise. **Flow Under Constraint** asks how bullion, reserves, credit and payments moved within those rules, and how a reserve loss could transmit stress. These questions prevent physical persistence or generalised “trust” from standing in for a historical mechanism.
+
+The international standard’s spread in the 1870s and 1880s depended on decisions as well as material suitability. Germany’s 1871–73 move from silver to gold altered the context for other countries. Wiegand argues that German policymakers acted partly to secure their place in the fixed-exchange-rate system in the postwar geopolitical setting; the adoption also contributed to the end of international bimetallism [2]. That gives the investigation a specific mechanism to test: legal choices by one major state changed incentives and options for other states. London’s financial reach and shifts in relative gold-silver prices are competing or interacting explanations, not factors to dismiss in advance.
+
+Once participating governments fixed their currencies to gold and maintained convertibility, parities made exchange rates predictable for cross-border contracts. But the promise had operating costs. Gold outflows could place pressure on reserves and trigger tighter credit, higher interest rates, deflation and falls in output. **Flow Under Constraint** makes the transmission path explicit; **Boards** keeps visible that adjustment was not imposed by gold alone, but depended on authorities following or suspending their commitments. Historically, surplus countries could resist adjustment, while downward wage and price stickiness made it harder for deficit countries to restore external balance [3]. Stability for exchange rates came at the cost of constrained domestic responses and uneven adjustment.
+
+The First World War led many countries to suspend ordinary convertibility. Interwar restoration attempts faced changed price levels, debt burdens and weak coordination, and the gold-based system broke down under the strains of the 1930s [3, 4]. Bretton Woods was a distinct institutional design, agreed in 1944 and operational in 1958: currencies were pegged to the dollar at adjustable rates, and the dollar was convertible into gold for foreign official holders at $35 an ounce [5]. More foreign-held dollar claims accumulated than the U.S. gold stock could credibly redeem at the promised price. On 15 August 1971, the United States ended official dollar-gold convertibility; the fixed-rate structure then unravelled [6].
+
+**Interpretation:** the historical record supports several interacting levels of explanation. Gold’s properties made it suitable and recognisable; domestic law and credible coinage arrangements helped standardise its use; national choices and financial networks spread a common monetary rule; reserve and payment flows transmitted adjustment pressures; and political decisions determined whether convertibility would be maintained or suspended. A material can survive contact while the institutions built around it do not.
+
+**Open question:** Which mechanism best predicts the timing of national adoption in the 1870s–1880s: changing gold-silver prices, strategic state choices, or access to London-centred trade and finance? Compare adoption dates and monetary laws with relative prices, trade/financial links and reserve movements, then check countries whose timing does not fit the leading explanation.
+
+### Comparison and scores
+
+The outputs are reviewed below by the same rubric. This is **not genuinely blind scoring**: the evaluator is the same model that drafted both answers and the condition assignment is apparent in their wording.
+
+| Rubric dimension (§9) | Condition A | Condition B | Assessment |
+|---|---:|---:|---|
+| 1. Separates material, coinage and institutional standard | 2 | 2 | Both make this distinction clearly. |
+| 2. Reconstructs chronology, alternatives and contingent decisions | 2 | 2 | Both cover England, bimetallism, the 1870s–1880s, interwar failure and Bretton Woods; B makes the institutional stages more explicit, but adds no major new chronological event. |
+| 3. Explains convertibility and adjustment mechanisms | 2 | 2 | Both explain reserve outflows and domestic adjustment costs. B explicitly assigns separate roles to rules and flows. |
+| 4. Distinguishes the classical, interwar and Bretton Woods regimes and 1971 | 2 | 2 | Both distinguish them and date the end of official dollar-gold convertibility. |
+| 5. Uses sources and separates fact from interpretation | 2 | 2 | Both use the same evidence set, qualify causal interpretation and propose a testable open question. |
+| 6. Uses one or two MP lenses selectively to improve the investigation | 0 | 2 | This is a condition-adherence check by design, not a general quality metric. |
+| 7. Ends with a discriminating unresolved question and concrete investigation | 2 | 2 | Both ask a similar, investigable question and propose country-level comparisons. |
+| **Total (literal repository rubric)** | **12/14** | **14/14** | The difference is entirely the intervention-specific dimension. Do not interpret the totals as a demonstrated quality advantage. |
+| **Content dimensions excluding dimension 6** | **12/12** | **12/12** | No scored content improvement was demonstrated in this pair. |
+
+### Result
+
+**No demonstrated overall improvement in this run.** The MP-guided answer makes the division between institutional rules and the flows operating under those rules more explicit. But the baseline answer, when given the same historical evidence, already explains most of the relevant history and mechanisms and ends with a comparably useful investigation. The common content rubric did not distinguish the answers.
+
+This is a meaningful negative result for the current test design: a well-written MP answer can look more structurally explicit without the test demonstrating that the framework led to a better historical answer or a better next question. The intervention-specific point total cannot be used as evidence that MP improved quality.
+
+### Control status and next step
+
+- Historical prompt and evidence pack were matched across the answer drafts.
+- The baseline instruction omitted the MP-guidance instruction; the guided instruction included it.
+- **Context isolation was not achieved.** The assistant had already read the MP materials, and both answers were produced in the same conversation.
+- **Independent/blind evaluation was not achieved.** The scorer drafted the answers and knew their conditions.
+- No repeated trials or external annotators were available.
+
+Therefore the gold-standard test remains **not yet completed as a controlled evaluation**, even though this second paired comparison has been added. A defensible next evaluation requires two separate model contexts (or independent model instances), matched domain sources and output constraints, and blind scoring by an evaluator who did not draft either answer. Until then, report the finding narrowly: the framework encouraged a more explicit two-part analysis, but this test has not shown better historical accuracy or a better unresolved question.
