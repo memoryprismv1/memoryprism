@@ -2,7 +2,7 @@
 
 **Date:** 2026-10-29  
 **Test type:** Historical explanation; ordinary-baseline versus Memory-Prism-guided comparison.  
-**Status:** Controlled-in-form comparison completed 2026-10-29. The same core historical prompt was answered in two conditions (ordinary baseline without Memory Prism guidance; Memory Prism-guided), with the same domain evidence set available to both. The comparison and scores are recorded in §12. It remains a qualitative, same-model, unblinded comparison—not a randomized or independent evaluation.
+**Status:** Paired comparison drafted and scored 2026-10-29, but the control is compromised by context contamination. The baseline answer was composed after the assistant had already encountered Memory Prism essays and skill material in this conversation, so it was not genuinely isolated from the framework. Section 12 records the outputs and rubric application, but this is not a clean controlled evaluation.
 
 ## 1. User's topic and intent
 
@@ -125,10 +125,10 @@ After running this prompt against the Memory Prism skill, record:
 - whether lens selection changed the historical explanation or identified a better next question;
 - the smallest justified test or skill revision.
 
-**Evaluation status:** The controlled-in-form, same-model comparison is recorded in §12. Scores are diagnostic and unblinded; research access was matched across the two answer conditions to reduce, but not eliminate, confounding.
+**Evaluation status:** A paired comparison and rubric application are recorded in §12, but the control is compromised because the nominal baseline was composed after prior MP exposure in the same conversation. The controlled evaluation remains incomplete; the recorded scores must not be presented as evidence of an overall MP advantage.
 
 
-## 12. Controlled comparison run — 2026-10-29
+## 12. Paired comparison run — 2026-10-29 (control compromised)
 
 ### Protocol
 
@@ -140,7 +140,7 @@ After running this prompt against the Memory Prism skill, record:
 - **Changed variable:** Explicit instruction and source-grounded guidance to use Memory Prism selectively.
 - **Scoring:** Apply the seven dimensions in §9 to both outputs. Dimension 6 directly measures whether the MP lenses were used; its baseline score of 0 is by design, not a finding that an ordinary answer is historically poor.
 
-This is a controlled-in-form comparison, not a true experimental estimate of causal effect. Both responses were composed by the same model in the same conversation, their condition was not blinded to the author, and scoring was not independent. There is no separate model instance, randomized order, or external evaluator.
+This is a matched-format paired comparison, **not a valid controlled evaluation**. Both responses were composed by the same model in the same conversation, the answer author knew the condition, scoring was not independent, and—most importantly—the assistant had already read the Memory Prism essays and skill before composing the nominal baseline. The baseline therefore cannot be treated as framework-naive. There was no context-isolated model instance, randomized order, blinded evaluator, or external scoring.
 
 ### Condition A — ordinary baseline answer
 
@@ -196,10 +196,12 @@ Both conditions had the same evidence set available. Citations above document th
 
 ### What changed, and what did not
 
-**Observed difference:** The strongest MP-specific addition is not new chronology or a different factual conclusion. It is a more explicit separation of the *institutional board* (legal convertibility and the authority to suspend it) from the *flows* (bullion, reserves, credit and payments) operating within that board. The MP-guided answer also uses Germany’s 1871–73 adoption as a specific example of strategic state decisions and geopolitical conditions affecting the wider monetary system.
+**Observed difference in the drafted pair:** The MP-labelled answer makes the distinction between the *institutional board* (legal convertibility and the authority to suspend it) and the *flows* (bullion, reserves, credit and payments) explicit. It also uses Germany’s 1871–73 adoption as a concrete example of state choices and geopolitical conditions affecting the wider monetary system. The ordinary answer already covers most of the same historical mechanisms and arrives at substantially the same conclusion.
 
-**Not demonstrated:** The run does not show that MP produces a more historically accurate conclusion overall; both answers reach substantially the same broad account and score equally on the six non-MP-specific dimensions. It also does not isolate the effect of MP from writing style or same-model judgement. A blinded independent evaluator, or repeated trials with a fixed prompt and scoring protocol, would be needed for stronger claims.
+**What the scores do and do not say:** Both answers score 12/12 across the six dimensions not defined by explicit MP-lens use. The 0-versus-2 result on dimension 6 is built into the condition design: the baseline was instructed not to use MP, and the guided answer was instructed to use it selectively. It is a manipulation/adherence check, not evidence of better history or better reasoning. The headline 12/14 versus 14/14 totals must therefore **not** be interpreted as an overall quality advantage.
 
-**Useful next test:** Use the country-level adoption timeline and the competing historical explanations to investigate whether the MP framing generates a more discriminating causal comparison than the ordinary baseline. Do not claim the answer until those data are examined.
+**Critical limitation:** Because the nominal baseline was composed after the assistant had encountered the MP corpus in the same conversation, the condition was not isolated. The comparison cannot establish whether a framework-naive assistant would produce a weaker answer, nor whether the observed wording difference was caused by MP rather than general drafting choices. This is the key control failure.
 
-**Run status:** Comparison outputs recorded; evidence anchors checked; qualitative score completed. Not blinded, not independent, and not a randomized experiment.
+**Useful next test:** For a cleaner comparison, run the same prompt in two genuinely separate contexts: one context receives only the historical prompt and shared domain sources; the other receives those same materials plus the Memory Prism skill and source corpus. Keep sources, output length expectations, and scoring criteria matched; then have an evaluator who did not draft the answers score them without knowing which condition produced which answer.
+
+**Run status:** Paired answer artifacts and qualitative rubric application recorded; evidence anchors checked. The controlled evaluation remains **not completed** because the baseline condition was contaminated by prior framework exposure.
