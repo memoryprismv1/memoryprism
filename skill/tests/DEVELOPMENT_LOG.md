@@ -9,6 +9,7 @@
 - [A WhatsApp forward after correction](whatsapp_forward_after_correction.md) — Test D-2026-10-28-01; qualitative baseline-versus-MP comparison with a water-conservation transfer check, domain sources, scores, limitations, unknowns, and next test.
 - [Native board, inherited pigment inventory, and Japanese maple pigmentation](native_board_maple_pigment_ecology.md) — Test E-2026-10-28-01; initial multi-turn baseline-versus-MP comparison, extended 2026-10-28 to track the broader open question of inherited regional pigment machinery, Japan/Korea/mainland comparisons, geological-board changes, evidence boundaries, and unresolved research questions.
 - [The Gold Standard](gold_standard.md) — Test G-2026-10-29-01; two paired-answer attempts recorded 2026-10-29. The protocol-repair attempt matches the historical evidence pack and separates baseline/guided instructions, but context isolation and blind/independent scoring remain unavailable. No content-quality gain was demonstrated; controlled evaluation remains incomplete. Includes the Surviving Contact companion link.
+- [Persistence Across Different Timescales](persistence_across_timescales.md) — Test MP-2026-10-30-01; paired ordinary-baseline/MP-guided qualitative drafts using lightning-generated atmospheric NOx. Both scored 12/12 on shared content criteria; MP made flow and accumulation more explicit but no content-quality gain was demonstrated. Context isolation and blind scoring remain unavailable.
 
 ## Collection rule
 
