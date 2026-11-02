@@ -118,6 +118,62 @@ The six essays address different layers rather than repeating one another:
 
 A particularly useful cross-essay relationship emerged between *Thrones of Flow* and *Circulation Collapse*: disruption of movement creates leverage, while the resulting circulation impairment consumes the buffers that keep dependent systems operating. *Street Fighter* adds the question of whether the system applying or absorbing pressure can sustain its strategy. *Gods of the Ledger* identifies the resource and stakeholder dependencies underneath those flows.
 
+
+## User-guided extension — circulation dependence, siege exposure, and operational learning
+
+**Status:** User-guided discussion added 2026-11-02. These are the user's subsequent assessments and hypotheses, developed in conversation after the first-pass review. They are not independent findings from the assistant's original essay comparison, and the claims below have not all been separately verified.
+
+### 1. Diversification may have delayed the threshold, not removed the vulnerability
+
+The user's assessment is that substantial work had gone into diversifying Gulf oil flows, building alternative routes and creating buffers, but that this effort may only have pushed the system's vulnerability further down the road. With multiple sides of the Gulf's oil movement now distressed, and Russia also facing constraints, the alternatives may be insufficient when disruptions become simultaneous.
+
+The user also connected the timing of Venezuelan market access and the release of stored oil before the Iran conflict: these had offered additional flexibility to global supply, but could not necessarily compensate for a broader combination of Gulf disruption and Russian constraints.
+
+**Interpretive question for future review:** Did diversification create durable independent capacity, or primarily buy time by spreading exposure across routes and suppliers that remain vulnerable to correlated shocks?
+
+This extends *Gods of the Ledger*, *Thrones of Flow*, and *Circulation Collapse*. It sharpens the distinction between having alternatives and having alternatives that remain available under the same crisis.
+
+### 2. Gulf societies depend on circulation beyond oil exports
+
+The user's argument is that Gulf states have built large, modern populations and urban systems in environments that do not naturally provide enough of the essentials those populations consume. Oil revenue made it possible to import food, goods, equipment and labour at scale; water security depends heavily on desalination and its supporting energy, industrial and distribution systems.
+
+The resulting exposure is not limited to lost export revenue. A prolonged interruption could affect the reproduction of ordinary social and economic life: food availability, water production, medicines, spare parts, maintenance, and the continued presence of workers and residents.
+
+The user described this as potential "siege material": wealth and advanced infrastructure do not by themselves guarantee resilience when the circulation systems sustaining them are interrupted.
+
+A qualification raised in discussion: Gulf states have made food-security, water-storage, strategic-reserve and alternative-supply investments. The issue is not an absence of planning, but whether buffers and workarounds can sustain the population through a prolonged, multi-system disruption. The Gulf states also differ significantly in geography, domestic production, storage and route access; they should not be treated as one uniform case.
+
+### 3. Fisheries are not automatically a wartime fallback
+
+The user challenged the idea that locally available fish provides a dependable fallback if ordinary food imports are interrupted. Even where fisheries are productive, fishing requires safe access to the sea, functioning ports, vessels, fuel, crews, processing, refrigeration and distribution. A contested or dangerous maritime environment can impair the ability to harvest and land fish.
+
+This is not a claim that Gulf fisheries are negligible or that every fishery would stop. It is a distinction between biological availability and operational accessibility. A food source can be geographically native yet unavailable at the scale or reliability needed during conflict.
+
+### 4. Iran's drone programme and operational feedback from the Russia–Ukraine war
+
+The user's point is specifically about the difference between R&D and prolonged operational use. Iran's drone designs were used by Russia in the Russia–Ukraine war, exposing them to real adversarial countermeasures and repeated field conditions. This created an opportunity for a feedback process unavailable from laboratory development alone:
+
+- weapons are deployed in actual operations;
+- defenders detect, intercept, jam, divert or otherwise defeat some systems;
+- failures and vulnerabilities become observable;
+- designs, components, tactics or production methods can be adjusted;
+- subsequent deployments provide further evidence.
+
+The user's assessment is that Iran had substantial time to benefit from this operational learning before the present conflict. The analytical point is the value of repeated use against an adapting opponent, not merely the existence or sophistication of the original drone R&D programme.
+
+**Evidence boundary:** Russian use of Iranian-designed drones and subsequent Russian modifications are documented. The precise extent, timing and channels through which battlefield lessons or modifications fed back into Iran's own programme require separate evidence. This record preserves the user's hypothesis and the mechanism to investigate; it does not claim that every Russian battlefield modification was transferred back to Iran.
+
+### 5. Updated cross-essay implication
+
+Taken together, these observations add two dimensions to the original synthesis:
+
+- **Societal reproduction under circulation failure:** *Gods of the Ledger* and *Circulation Collapse* apply not only to export revenue and commodity movement, but also to the imported inputs and continuous services required to sustain the population.
+- **Operational learning as accumulated capability:** *Street Fighter* should be examined not only through weapons, retaliation and buffering, but also through the time available to observe adversarial responses and iterate capabilities. A weapon's operational history can matter as much as its designed specification.
+
+The resulting snowball hypothesis is that simultaneous disruption consumes the very buffers and alternatives that were built to absorb individual disruptions, while prolonged operational exposure can improve an adversary's ability to exploit weaknesses. Both mechanisms need further evidence and should remain open tests rather than settled conclusions.
+
+**Attribution:** This extension is explicitly user-guided and discussion-derived. The user supplied the assessments and causal connections; the assistant organised them into the test record. It should not be represented as an independently selected test topic, an independently generated hypothesis, or a verified research finding.
+
 ## Open tests for subsequent updates
 
 1. **Street Fighter:** Has asymmetric retaliation produced durable deterrence, or has it prolonged a destructive contest while exhausting the defender's buffers?
