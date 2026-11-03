@@ -17,6 +17,8 @@
 
 - [Airport Runway Grooving and Footwear Tread](airport_runway_grooving_and_footwear_tread.md) — Test MP-2026-11-03-01; assistant-selected, research-backed baseline/MP comparison with cross-domain transfer. MP made the next question more diagnostic by separating under-tyre drainage, runway runoff and surface friction; footwear transfer tested the boundary between shared fluid-drainage principles and domain-specific traction mechanics. Chatty presentation; self-scored, not blind or context-isolated.
 
+- [Experimental Test: Memory Prism Applied to Software Planning](experimental_software_planning_2026-11-03.md) — Test MP-EXP-SOFTWARE-PLANNING-2026-11-03-01; assistant-invented single-screen cinema ticketing project. Initial MP-guided software plan recorded, including screening-level seat allocation, booking/payment lifecycle, concurrency and reconciliation risks, implementation sequence, open decisions, preliminary assessment, and limitations. Experimental branch only; user evaluation pending.
+
 ## Collection rule
 
 One substantive experiment per file. Keep transfer checks and related observations inside their parent experiment record. Batch collation and cumulative topic reports belong to downstream peer-review/reporting bots, not the daily test collector.
