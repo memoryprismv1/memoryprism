@@ -173,3 +173,83 @@ Inspect whether the MP-guided plan has:
 5. Produced a plan that is easier to act on, not merely more intellectually elaborate.
 
 The user will assess the usefulness of the plan and may challenge assumptions or identify omissions. Record that feedback before claiming an outcome.
+
+
+---
+
+## Follow-up: conventional baseline and critical-thinking challenge
+
+**Follow-up date:** 2026-11-03  
+**Purpose:** Compare the same fictional project brief under three planning conditions.
+
+### Conditions
+
+1. **Conventional planning (baseline attempt):** Requirements/workstream-first planning, without deliberately applying MP.
+2. **MP planning:** The initial MP-guided plan recorded above.
+3. **MP + critical-thinking challenge:** The same MP inventory and plan, followed by a deliberate challenge pass questioning the premise, hidden assumptions, failure cases, and whether the proposed solution is justified.
+
+### Blindness and independence limitation
+
+The conventional baseline was drafted from the original project brief without consulting the MP plan as a planning template. However, the assistant had already generated and seen the MP plan earlier in this conversation. This is therefore **not a genuinely blind or context-isolated baseline**. The assistant cannot guarantee absence of carry-over from its earlier reasoning. It is recorded as a conventional-method baseline attempt, not an independent blind run.
+
+No installed skill explicitly named Critical Thinking was available. The third condition used an explicit adversarial review procedure; it must not be represented as execution of a separately installed skill.
+
+### Conventional baseline result
+
+The conventional plan was organised around requirements and workstreams: requirements/UX, customer experience, staff experience, backend, data, integrations, testing, deployment and training.
+
+It identified concurrent seat selection and payment failure as risks. Its proposed sequence was requirements and UX, database/API, customer booking, payment, staff interface, testing and deployment.
+
+This shows that those risks are not unique MP discoveries. The baseline was more feature/workstream-oriented and did not make the seat-allocation invariant its organising principle.
+
+### MP + critical-thinking challenge result
+
+The challenge pass retained the MP inventory and shared seat-allocation invariant, then identified several weaknesses:
+
+1. **Build-versus-buy:** The brief never established that a custom system was needed. For one cinema and 84 seats, existing ticketing products may already meet the requirements. Product-fit investigation should precede custom architecture.
+2. **Allocation semantics:** "One active claim per seat" requires precise treatment of online holds, box-office sales, staff overrides, simultaneous staff actions, and payment delays.
+3. **Payment design:** A late successful payment should not automatically lead to a refund-based architecture. Authorisation followed by capture may avoid charging for an unavailable seat, depending on provider and payment-method capabilities. This requires investigation.
+4. **Outage policy:** Whether staff pause sales or continue offline with paper records is an operational decision. Resuming online sales after offline sales requires reconciliation.
+5. **Assumption control:** Fixed numbered seats, email tickets, an eight-minute hold, guest checkout, card payment, modular monolith, and cancellation workflow were provisional assumptions, not established requirements.
+6. **MVP size:** If an existing platform fits, the actual project may be configuration, data setup, payment integration, training and operational testing—not custom software development.
+
+### Revised recommendation
+
+Do not approve a custom build yet. First conduct a product-fit investigation against the cinema's actual operating requirements. If no suitable product supports shared seat inventory, box-office sales, payment and cancellation requirements, then proceed to custom design.
+
+This changes the recommendation from "build a shared allocation system" to "establish whether a custom system is warranted before building one."
+
+### Comparative matrix
+
+| Dimension | Conventional | MP alone | MP + critical challenge |
+|---|---|---|---|
+| Starting point | Features and workstreams | Screening, seat inventory and persistence | Same MP mapping, then challenge the premise |
+| Main organising idea | Deliver requested functions | Protect shared seat allocation | Establish whether a custom system is justified |
+| Shared seat availability | Backend concern | Central invariant | Invariant retained; enforcement semantics challenged |
+| Payment failure | Listed as a risk | Payment and booking separated | Authorisation versus capture questioned |
+| Staff operations | Staff interface and permissions | Staff actions affect shared state | Overrides and outage procedures challenged |
+| Implementation sequence | Feature/workstream sequence | Allocation mechanism before interfaces | Product-fit investigation before implementation |
+| Assumptions | Requirements to clarify | Explicitly surfaced; some provisionally adopted | Actively challenged; some become decision gates |
+| Major omission | Whether custom software is needed | Whether custom software is needed | Build-versus-buy becomes the first decision |
+| Practical next action | Begin requirements and design | Design the allocation engine | Investigate existing products before authorising a build |
+
+### Preliminary interpretation
+
+The conventional plan identified concurrency and payment risks; these cannot be claimed as MP-exclusive discoveries.
+
+The MP pass reorganised planning around a shared operating condition rather than a list of features. The critical-thinking pass then exposed a more fundamental omission: the brief never established that custom development was necessary.
+
+The build-versus-buy finding is attributable to the challenge pass in this run, not uniquely to MP.
+
+### Methodological limitations
+
+- Same assistant and conversation; context isolation is unavailable.
+- The conventional baseline is not genuinely blind, despite being drafted from the brief without consulting the MP plan as a template.
+- The third condition is an explicit critical-thinking challenge procedure, not an installed skill.
+- No external reviewer, blind scoring, implementation, product-market comparison, or operational validation occurred.
+- The assistant authored all three conditions and the preliminary comparison.
+- No superiority claim is established.
+
+### Next evaluation
+
+The next useful experiment would compare the planning methods on a project where the need to build software is already established, so build-versus-buy does not dominate the result. It should test whether MP improves requirements, dependencies, sequencing, state handling, failure coverage, or decision quality beyond conventional planning, and whether a critical-thinking pass adds further value.
