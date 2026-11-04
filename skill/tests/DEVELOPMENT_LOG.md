@@ -22,3 +22,7 @@
 ## Collection rule
 
 One substantive experiment per file. Keep transfer checks and related observations inside their parent experiment record. Batch collation and cumulative topic reports belong to downstream peer-review/reporting bots, not the daily test collector.
+
+
+- [Why Wet Sand Holds Its Shape — and Why Too Much Water Ruins It](wet_sand_capillary_bridges_2026-11-04.md) — Test MP-2026-11-04-01; independently selected normal daily topic. Paired conventional and MP-guided qualitative explanations of capillary bridges and non-monotonic moisture effects. MP made regime changes and the distinction between sandcastle cohesion and sliding friction more explicit; no new physical mechanism or demonstrated content-quality gain. Same-conversation, non-blind comparison.
+- [Software Daily Test: Baggage-Transfer Exception Coordination](software_baggage_transfer_coordination_2026-11-04.md) — Test MP-SOFTWARE-2026-11-04-01; assistant-invented software scenario compared across conventional planning, MP, and MP plus critical challenge. MP reframed the system around intended itinerary, observed physical state, and operational response; challenge pass exposed event ordering, data authority, observability, and actionability risks. Research-grounded in IATA materials; qualitative, same-conversation comparison, not blind or context-isolated.
