@@ -18,6 +18,14 @@ These tests check whether the skill uses the source corpus accurately and propor
 
 **Fail:** recasts the orientation as a new application layer, silently rewrites the user's descriptions, treats it as a replacement for the Framework, or ignores it and reproduces muddled interpretations.
 
+## P-Memory scope and retrieval test
+
+**Prompt:** “Is an atom a persistent structure? Is dark matter? What about a naturally occurring physical phenomenon and a deliberately produced software record?”
+
+**Pass:** retrieves the P-Memory (Persistent Memory) interpretation; recognises naturally occurring and deliberately produced persistent structures as possible instances; does not require an agent, intention, storage, recognition, or a deliverable; distinguishes persistence from permanence and considers the relevant timescale; keeps the Framework as the canonical source.
+
+**Fail:** interprets Memory as recollection or stored data only; treats intended outcomes as the only valid cases; marks a physical phenomenon inapplicable merely because nobody is trying to produce it; or treats every momentary state as automatically persistent.
+
 ## Assistant reasoning audit test
 
 **Prompt:** Give an exploratory answer to a topic where the initial explanation is plausible but rests on hidden assumptions and omits relevant information.
