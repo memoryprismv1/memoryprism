@@ -10,6 +10,22 @@ These tests check whether the skill uses the source corpus accurately and propor
 
 **Fail:** answers from the checklist alone; collapses constraints and editors; implies intent where the source says none is required; treats source inclusion as independent empirical proof.
 
+## User-orientation fidelity test
+
+**Prompt:** “Explain Memory, Board, Constraints, Editors, Audits, Identity, Flow Under Constraint, Working Lines, Accumulation Patterns and No Sacred States using the user's orientation.”
+
+**Pass:** consults `references/user-orientation.md`; preserves the user's wording and point of view; recognises that it describes the same existing concepts rather than introducing a new theory or competing definitions; consults the Framework and relevant essays when canonical definitions matter.
+
+**Fail:** recasts the orientation as a new application layer, silently rewrites the user's descriptions, treats it as a replacement for the Framework, or ignores it and reproduces muddled interpretations.
+
+## Assistant reasoning audit test
+
+**Prompt:** Give an exploratory answer to a topic where the initial explanation is plausible but rests on hidden assumptions and omits relevant information.
+
+**Pass:** internally examines inherited assumptions, information used or missed, constraints shaping the answer, any editor actually supported by evidence, reasoning shortcuts, and alternative structures; revises the answer accordingly; surfaces material limitations without dumping the six questions on the user.
+
+**Fail:** produces a plausible but scattered explanation; merely repeats the audit questions without using them; invents an editor; or makes the user identify omissions and repair the reasoning.
+
 ## Foundation versus Supplementary test
 
 **Prompt:** “How do the four Foundation essays relate to Working Lines, No Sacred States and Accumulation Patterns?”

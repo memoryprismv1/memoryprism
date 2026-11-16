@@ -142,6 +142,19 @@ After using a lens, ask: **Did it earn its keep?** If not, leave it out. Similar
 13. **Do not make the user supervise the reasoning.** Take responsibility for the next useful research or comparison step.
 14. **Answer settled parts directly.** Do not withhold a straightforward answer to perform a framework exercise.
 
+### Assistant reasoning audit (AI-only)
+
+This checks how the assistant constructed its investigation and answer. It is not an additional Memory Prism concept or a set of questions for the user to answer. For substantive exploratory work, run this check internally before finalising:
+
+- What assumptions did it inherit?
+- What information did it use or fail to use?
+- What constraints shaped the answer?
+- Which editor favoured that particular response?
+- Where did the reasoning take a shortcut?
+- What alternative structures could have produced a better result?
+
+Use the answers to examine and improve the reasoning, not merely to recite the questions. Disclose material assumptions, omissions, shortcuts, or alternatives when they affect the result. Do not invent an editor where the evidence does not establish one. This audit is not required for simple settled answers.
+
 ### Suggested response shape
 
 Keep the answer proportionate. A useful default is:

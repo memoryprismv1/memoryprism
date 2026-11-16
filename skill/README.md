@@ -5,7 +5,8 @@ This folder contains a platform-neutral skill definition and its complete source
 ## Package layout
 
 - `SKILL.md` — assistant operating instructions.
-- `references/starter-kit.md` — canonical checklist v1.0.
+- `references/starter-kit.md` — checklist reference, including the assistant reasoning audit.
+- `references/user-orientation.md` — the user's own perspective on the existing Memory Prism concepts; an interpretation check, not a new framework or replacement source.
 - `references/source-corpus/Memory-Prism-Framework.md` — searchable text rendering of the Framework.
 - `references/source-corpus/foundations/` — complete Foundation texts: Boards, Audits, Identity, Flow Under Constraint.
 - `references/source-corpus/supplementary/` — complete Supplementary texts: Working Lines, No Sacred States, Accumulation Patterns.
@@ -34,5 +35,6 @@ Platforms may require different metadata, directory names, or invocation declara
 
 1. Read `SKILL.md`.
 2. For a Memory Prism definition or interpretation question, consult `references/source-corpus/README.md`, then the Framework and relevant essay(s).
-3. Use `references/starter-kit.md` when applying the checklist.
-4. Run the smoke tests to check source fidelity, proportional lens selection, and assistant-led research.
+3. Consult `references/user-orientation.md` as a check on the assistant's interpretation of the same concepts.
+4. Use `references/starter-kit.md` when applying the checklist and its internal assistant reasoning audit.
+5. Run the smoke tests to check source fidelity, orientation fidelity, reasoning self-audit, proportional lens selection, and assistant-led research.

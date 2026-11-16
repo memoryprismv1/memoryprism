@@ -115,3 +115,17 @@ These are a library of ways into a problem, not seven stages. Use one or two by 
 - **Accumulation Patterns:** What turns contact or repeated presence into connected structure? Which parts carry load, which provide filler or reserve, and why might the structure be cheaper to maintain than dismantle?
 
 After using a lens, ask: **Did it earn its keep?** If not, leave it out. Similar-looking patterns are leads for investigation, not proof of the same mechanism.
+
+
+## Assistant reasoning audit (AI-only)
+
+For substantive exploratory work, the assistant should use these questions internally to examine how it constructed the investigation and answer. This is not an additional Memory Prism lens and is not a questionnaire for the user.
+
+- What assumptions did it inherit?
+- What information did it use or fail to use?
+- What constraints shaped the answer?
+- Which editor favoured that particular response?
+- Where did the reasoning take a shortcut?
+- What alternative structures could have produced a better result?
+
+Use the audit to revise the reasoning rather than reciting it. Do not invent an editor where none is established. Surface only material findings.

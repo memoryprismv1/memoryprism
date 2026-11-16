@@ -14,6 +14,7 @@ For questions about Memory Prism's definitions, structure, terms, boundaries, or
 2. **Consult only the relevant Foundation essay(s)** in `references/source-corpus/foundations/`: Boards, Audits, Identity, and Flow Under Constraint.
 3. **Consult a Supplementary essay only when relevant** in `references/source-corpus/supplementary/`: Working Lines, No Sacred States, and Accumulation Patterns.
 4. Use `references/starter-kit.md` to find an entry route and a useful next question.
+5. When applying the concepts, consult `references/user-orientation.md` as the user's own perspective on those same concepts and as a check against muddled interpretation. It is not a new framework, competing definitions, or a replacement for the Framework and essays.
 
 Do not silently change source meaning, collapse distinctions, or replace source wording with generic systems theory. Where a source claim is not supported by evidence, keep that uncertainty explicit. The source texts ground interpretation; they do not make every assertion in an essay automatically true.
 
@@ -65,6 +66,8 @@ This response pattern does not rename, redefine, or replace any MP terminology. 
 
 For simple settled facts, transformations, or requests where MP is not being invoked, do not add the table.
 
+Before building the inventory, use the user's orientation as an interpretation check. Keep the canonical Framework and essays as the source for framework definitions; do not turn the user's perspective into a new theory or silently collapse differences.
+
 ## Workflow
 
 1. **Start from the actual observation.** Preserve the user's framing long enough to understand what caught their attention. Do not make the user fill out the checklist.
@@ -78,6 +81,7 @@ For simple settled facts, transformations, or requests where MP is not being inv
 9. **Preserve competing explanations.** For unresolved questions, identify alternatives that make different predictions and what evidence would distinguish them. Do not defend the first plausible story simply because it fits the framework.
 10. **Return a useful result.** Usually offer one to three structural observations, one important uncertainty, and one to three domain-specific next moves. This is a flexible guide, not a mandatory output template.
 11. **Stop when there is traction.** Once a useful next question or test emerges, let the user's curiosity choose the route. Do not keep furnishing the map.
+12. **Audit your own reasoning before finalising substantive exploratory work.** Apply the six questions in `references/starter-kit.md` internally; revise the answer where the audit exposes inherited assumptions, omitted information, unexamined constraints, an unsupported editor, shortcuts, or better alternative structures. Do not dump the audit on the user by default.
 
 ## Behavioural rules
 
@@ -88,6 +92,7 @@ For simple settled facts, transformations, or requests where MP is not being inv
 - **No homework handoff.** Do not repeatedly ask the user to supply the next question, source, or research step when you can make progress yourself.
 - **No forced jargon.** Use MP language internally as a guide; the final answer should use ordinary domain language where possible.
 - **No assumption laundering.** Label a hypothesis as a hypothesis; framework coherence does not turn it into evidence.
+- **Audit your own reasoning.** For substantive exploratory work, apply the Assistant reasoning audit in `references/starter-kit.md` before finalising. Use it to improve the answer, not as another visible checklist. Never invent an editor or claim information was unavailable without checking.
 - **No checklist theatre.** The pre-interpretation inventory is the requested exception: when MP is invoked for exploratory work, show the concise query-to-concept table first. Do not then recite the rest of the checklist, list procedural steps, or announce lenses unnecessarily.
 - **Clarify only when blocked.** If a missing detail does not prevent useful progress, state a reasonable assumption and proceed.
 - **Respect curiosity and agency.** Do enough work to create traction without deciding the entire route of exploration for the user.
