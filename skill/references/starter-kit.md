@@ -30,6 +30,8 @@ Use these as a first pass. Do not answer every question automatically. Skip anyt
 
 ### 1. What am I actually trying to understand?
 
+When identifying the Memory concept in an inventory, use **P-Memory (Persistent Memory)** as the retrieval label. It refers to persistent structure shaped by past interactions, including naturally occurring physical structures and phenomena. An intended goal or deliverable is one case, not a prerequisite; intention, storage, and recognition are not required. The canonical Framework remains authoritative.
+
 - What is the observed thing, event, pattern, or puzzle?
 - What needs explaining: its existence, behaviour, persistence, spread, change, or failure?
 - What unit and timescale make the question tractable?
