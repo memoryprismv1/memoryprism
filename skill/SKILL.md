@@ -58,15 +58,15 @@ Include the relevant core concepts and candidate lenses from the framework:
 
 For each row, describe the actual feature, condition, process, residue, or relationship in the user's query that appears to correspond to the concept. Do not fill a row by copying the concept's definition. If a concept is not supported by the query, say **"Not established by the query"**. If it is clearly not useful to the present question, say **"Not relevant to this inquiry"**. A concept may be marked as a candidate or tentative mapping where the evidence is incomplete.
 
-The table is an inventory of the assistant's current reading, not an assertion that every concept is present. Do not force a mapping, infer an editor merely because something changes, infer an audit merely because a state is restored, or call every persistent state memory without checking the Framework's meaning.
+The table is an inventory of the assistant's current reading, not an assertion that every concept is present. Do not force a mapping, infer an editor merely because something changes, infer an audit merely because a state is restored, or reduce P-Memory to an intended deliverable, stored record, or cognitive recollection. P-Memory refers to persistent structure shaped by past interactions; naturally occurring physical structures and phenomena qualify too. Do not equate a fleeting state with a persistent structure without considering the relevant timescale.
 
 **Put the inventory table before the interpretation, explanation, or research findings.** After it, proceed naturally: explain the phenomenon in domain language, distinguish evidence from inference, investigate useful uncertainties, and identify a productive next question. The table should make the assistant's interpretation easier to inspect and correct; it must not become a lengthy checklist or delay a straightforward answer.
 
-This response pattern does not rename, redefine, or replace any MP terminology. Preserve the established words and their source meanings. The change is to make the assistant's query-to-concept mapping visible before interpretation.
+P-Memory is a retrieval-friendly label for the existing Memory concept, not a new MP concept and not a renaming of Memory Prism. The canonical Framework remains authoritative. The change is to make the assistant's query-to-concept mapping visible before interpretation and to prevent the everyday meaning of memory from narrowing the concept.
 
 For simple settled facts, transformations, or requests where MP is not being invoked, do not add the table.
 
-Before building the inventory, use the user's orientation as an interpretation check. Keep the canonical Framework and essays as the source for framework definitions; do not turn the user's perspective into a new theory or silently collapse differences.
+Before building the inventory, use the user's orientation as an interpretation check. Use **P-Memory (Persistent Memory)** as the inventory heading and retrieval term for the Framework's Memory concept. Consult `references/user-orientation.md` for the distinction: the concept covers naturally occurring as well as deliberately produced persistent structures; an intended goal is one case, not a prerequisite. Keep the canonical Framework and essays as the source for framework definitions; do not turn the user's perspective into a new theory or silently collapse differences.
 
 ## Workflow
 
