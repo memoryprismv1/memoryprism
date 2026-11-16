@@ -2,15 +2,19 @@
 
 These are the user's own concise descriptions of the existing Memory Prism concepts, written from their point of view.
 
-They are not new definitions, a new theory, a new application layer, or a replacement for the Framework and essays. They describe the same concepts already present in Memory Prism, in the user's own terms. Their purpose is to help an assistant keep its interpretation aligned with the user's understanding and avoid muddling the concepts.
+They are not a new theory, application layer, or replacement for the Framework and essays. They describe the same concepts already present in Memory Prism. Their purpose is to help an assistant keep its interpretation aligned with the user's understanding and avoid muddling the concepts.
 
 Preserve the wording as supplied. For canonical definitions and framework-specific questions, consult the Framework and relevant essays. Use this page as the user's perspective and as an interpretation check; do not treat it as a competing source or silently invent a reconciliation if wording appears different.
 
 ## The concepts
 
-**Memory**
+**P-Memory (Persistent Memory)**
 
-The goal: the persistent structure or outcome to be produced
+The persistent structure or outcome that exists or is being produced, shaped by past interactions. In a goal-oriented inquiry, the goal: the persistent structure or outcome to be produced.
+
+P-Memory is not limited to intended deliverables, stored information, records, living systems, or things that actively maintain themselves. Naturally occurring physical structures and phenomena can qualify. The structure need not be recognised or interpreted to exist. Persistence is assessed over the relevant timescale; it does not mean unchanging or permanent.
+
+**Terminology note:** P-Memory is a retrieval-friendly label for the existing Memory concept in the Memory Prism Framework. The Framework's canonical text continues to define the concept; this label does not create a new concept or change the name Memory Prism.
 
 **Board**
 
