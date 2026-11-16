@@ -46,7 +46,7 @@ Use a table with these columns:
 
 Include the relevant core concepts and candidate lenses from the framework:
 - Board
-- Memory
+- P-Memory (Persistent Memory)
 - Constraints
 - Editors
 - Flow Under Constraint
