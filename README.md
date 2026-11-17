@@ -12,7 +12,7 @@
 
 ---
 
-![Memory Prism: a question examined through the six starter-kit questions](assets/memory-prism-readme-hero.jpg)
+![Memory Prism: a question examined through the six starter-kit questions](assets/memory-prism-readme-hero.webp)
 
 ## A way into unfamiliar problems
 
