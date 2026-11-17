@@ -6,32 +6,36 @@
 
 **What can persist, what changes, what gets filtered out—and why?**
 
-[Framework PDF](MemoryPrism-Framework.pdf) · [DOI](https://doi.org/10.5281/zenodo.19287268) · [About](ABOUT.md) · [Starter Kit](starter-kit/Memory-Prism-Starter-Kit-Checklist-v1.0.md) · [Documentation](docs/Home.md) · [Portable AI skill](skill/README.md) · [Skill source corpus](skill/references/source-corpus/README.md) · [Wiki sources](wiki-seed/Home.md)
+[Framework PDF](MemoryPrism-Framework.pdf) · [DOI](https://doi.org/10.5281/zenodo.19287268) · [About](ABOUT.md) · [Starter Kit](starter-kit/Memory-Prism-Starter-Kit-Checklist-v1.0.md) · [Documentation](docs/Home.md) · [Portable AI skill](skill/README.md)
 
 </div>
 
 ---
 
-![Memory Prism entry map](assets/memory-prism-entry-map.svg)
+![Memory Prism: a question examined through the six starter-kit questions](assets/memory-prism-readme-hero.jpg)
 
-Memory Prism is a way to enter an unfamiliar problem by examining the conditions under which things form, move, persist, and fail. It is meant to open an investigation—not to replace domain knowledge, prescribe every step, or turn curiosity into a checklist exercise.
+## A way into unfamiliar problems
 
-This repository began as a versioned home for the Framework PDF and now includes the Starter Kit, reference documentation, and a platform-neutral AI skill. The published framework remains the primary source; these are companion tools for applying it.
+Memory Prism is a way to enter an unfamiliar problem by examining the conditions under which things form, move, persist, and fail.
 
-## Start here
+It opens an investigation. It does not replace domain knowledge, prescribe every step, or turn curiosity into a checklist exercise.
 
-| I want to… | Start with |
+The published Framework PDF is the primary framework artifact. The Starter Kit, reference documentation, and platform-neutral AI skill are companion resources for exploring and applying it.
+
+## Explore Memory Prism
+
+| If you want to… | Start here |
 |---|---|
-| Understand the framework's core concepts | [Framework PDF](MemoryPrism-Framework.pdf) |
+| Understand the framework and its core concepts | [Framework PDF](MemoryPrism-Framework.pdf) |
 | Get traction on an unfamiliar topic | [Starter Kit checklist](starter-kit/Memory-Prism-Starter-Kit-Checklist-v1.0.md) |
 | Understand the seven supporting lenses | [The seven lenses](docs/seven-lenses.md) |
 | See how to use MP without over-applying it | [How to use Memory Prism](docs/using-memory-prism.md) |
-| Use the approach with an AI assistant | [Portable skill package](skill/README.md) |
-| Browse the documentation | [Documentation home](docs/Home.md) |
+| Work with the approach through an AI assistant | [Portable AI skill](skill/README.md) |
+| Browse the reference material | [Documentation home](docs/Home.md) |
 
-## The entry point
+## Start with a question
 
-The starter kit asks a small set of questions, used selectively:
+The Starter Kit uses six questions to help open an investigation. They are used selectively, not as a mandatory sequence:
 
 1. What am I actually trying to understand?
 2. What is the board?
@@ -40,11 +44,11 @@ The starter kit asks a small set of questions, used selectively:
 5. Where does it change, get corrected, or fail?
 6. What is the best next question?
 
-These are prompts, not mandatory steps. Skip questions that add no value. The checklist has done its job when it helps identify a productive next move.
+Skip questions that add no value. The checklist has done its job when it helps identify a productive next move.
 
 ## The seven supporting essays
 
-The starter kit is derived from the Memory Prism Framework and exactly these seven supporting essays:
+The Starter Kit is derived from the Memory Prism Framework and its seven supporting essays:
 
 - **Boards**
 - **Audits**
@@ -54,29 +58,39 @@ The starter kit is derived from the Memory Prism Framework and exactly these sev
 - **No Sacred States**
 - **Accumulation Patterns**
 
-They are optional lenses during application, not seven boxes every topic must fill. See [the seven lenses](docs/seven-lenses.md).
+These are optional lenses during application—not seven boxes every topic must fill. See [the seven lenses](docs/seven-lenses.md).
 
 ## Source library included with the skill
 
-The platform-neutral skill bundles searchable text for the Framework and complete texts for the four Foundation essays—**Boards, Audits, Identity, Flow Under Constraint**—and the three Supplementary essays—**Working Lines, No Sacred States, Accumulation Patterns**. The [source-corpus guide](skill/references/source-corpus/README.md) records canonical URLs, provenance, attribution, and licence.
+The platform-neutral skill bundles searchable text for the Framework and the complete texts of all seven supporting essays:
 
-The essays are available to ground interpretation; their presence does not make every lens mandatory in every response. The published Framework PDF remains the canonical artifact at the repository root.
+- Foundation essays: **Boards, Audits, Identity, Flow Under Constraint**
+- Supplementary essays: **Working Lines, No Sacred States, Accumulation Patterns**
+
+The [source-corpus guide](skill/references/source-corpus/README.md) records canonical URLs, provenance, attribution, and licence. The essays are available to ground interpretation; their presence does not make every lens mandatory in every response.
+
+The published Framework PDF remains the canonical artifact at the repository root.
 
 ## Canonical record and citation
 
-The framework has two DOI forms: the **concept DOI [10.5281/zenodo.19287268](https://doi.org/10.5281/zenodo.19287268)** for general reference across versions, and the **version 1.0 DOI [10.5281/zenodo.19287269](https://doi.org/10.5281/zenodo.19287269)** for citing the specific release published in March 2026. The concept DOI resolves to the latest version. Citation guidance is in [`CITATION.cff`](CITATION.cff) and [`CITATION.md`](CITATION.md); official source links are collected in [`SOURCES.md`](SOURCES.md).
+Memory Prism has two DOI forms:
+
+- **Concept DOI:** [10.5281/zenodo.19287268](https://doi.org/10.5281/zenodo.19287268) — general reference across versions; resolves to the latest version.
+- **Version 1.0 DOI:** [10.5281/zenodo.19287269](https://doi.org/10.5281/zenodo.19287269) — the specific release published in March 2026.
+
+Citation guidance is in [`CITATION.cff`](CITATION.cff) and [`CITATION.md`](CITATION.md). Official source links are collected in [`SOURCES.md`](SOURCES.md).
 
 ## Repository map
 
-```text
-MemoryPrism-Framework.pdf   Foundational framework document
-docs/                       Human-readable reference documentation
-starter-kit/                Canonical checklist source
-skill/                      Platform-neutral skill, complete source corpus, and tests
-wiki-seed/                  Markdown pages prepared for GitHub Wiki
-assets/                     README visual assets
-CONTRIBUTING.md             Editorial and contribution guidance
-```
+| Location | Contents |
+|---|---|
+| `MemoryPrism-Framework.pdf` | Foundational framework document |
+| `docs/` | Human-readable reference documentation |
+| `starter-kit/` | Canonical checklist source |
+| `skill/` | Platform-neutral skill, complete source corpus, and tests |
+| `wiki-seed/` | Markdown pages prepared for GitHub Wiki |
+| `assets/` | README visual assets |
+| `CONTRIBUTING.md` | Editorial and contribution guidance |
 
 ## Editorial commitments
 
@@ -94,4 +108,6 @@ The framework PDF remains the primary framework artifact. The checklist and AI s
 
 ## License and reuse
 
-The official Memory Prism site states **CC BY-NC 4.0** for Memory Prism v1.0. [`LICENSE.md`](LICENSE.md) documents the scope for original project content in this repository. Non-commercial sharing and adaptation are permitted under the licence terms; commercial use requires separate permission. Third-party materials retain their own rights. This is a content licence, not an OSI-approved open-source software licence.
+The official Memory Prism site states **CC BY-NC 4.0** for Memory Prism v1.0. [`LICENSE.md`](LICENSE.md) documents the scope for original project content in this repository. Non-commercial sharing and adaptation are permitted under the licence terms; commercial use requires separate permission. Third-party materials retain their own rights.
+
+This is a content licence, not an OSI-approved open-source software licence.
