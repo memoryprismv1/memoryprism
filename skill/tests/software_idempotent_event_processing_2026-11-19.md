@@ -14,14 +14,13 @@ A retry must not create a second effect for the same logical operation, and a de
 | MP concept | What I identify in this query |
 |---|---|
 | Board | The consumer, message broker, database, network and downstream services across separate failure domains. |
-| P-Memory (Persistent Memory) | Durable operation identity and processing outcome retained so a redelivery can be distinguished from new work. |
+| P-Memory (Persistent Memory) | Durable operation identity and committed processing outcome retained so a redelivery can be distinguished from new work. |
 | Constraints | At-least-once delivery, transaction boundaries, uniqueness guarantees, retention periods and uncertain network outcomes. |
-| Editors | Crashes, retries, redeliveries, concurrent consumers and retention/cleanup processes that determine which processing state survives. |
+| Ledger | Retry attempts consume broker throughput, worker time, database connections, CPU, I/O, storage and operator attention; deadlines and recovery capacity are finite budgets. |
 | Flow Under Constraint | Messages, acknowledgements, database writes and outbox events crossing system boundaries. |
 | Audits | Unique-key conflicts, durable processing records, transaction results and reconciliation checks. |
-| Identity | Stable message or operation IDs, producer identity, event version and idempotency-key scope. |
+| Identity | Stable logical operation IDs, producer/tenant scope and event version; payload equality alone does not establish identity. |
 | Working Lines | The interval between durable commit and acknowledgement; the dual-write gap between database commit and message publication. |
-| No Sacred States | A timeout does not mean a transaction failed; a retry may arrive after the original operation committed. |
 | Accumulation Patterns | Deduplication records, retry queues, outbox backlogs and poison-message queues can grow over time. |
 
 ## Three-way planning comparison
@@ -56,6 +55,9 @@ Challenge the design against failure timing:
 - **Deduplication record expires too early:** an old replay can become a duplicate effect; retention must match the system's actual replay and recovery policy.
 
 “Exactly once” should not be claimed as a property of the entire distributed workflow merely because one broker or database offers a narrower exactly-once feature. State precisely which boundary is protected and which effects remain at-least-once or require reconciliation.
+
+## Ledger
+Retries are not free. Every attempt consumes broker capacity, worker time, database connections, transaction/lock time, I/O and often storage for deduplication and outbox records. A retry policy therefore needs a bounded attempt/time budget, backoff and jitter, and a limit that prevents failing dependencies from consuming the capacity needed for recovery. Timeout values also spend a finite latency budget across the end-to-end operation; setting each component timeout independently can exceed the caller's deadline. The system should reserve enough capacity to process healthy traffic and drain backlogs after an incident.
 
 ## Research-grounded insight
 At-least-once delivery intentionally trades possible duplicate delivery for resilience against message loss. The consumer therefore needs idempotent processing. A transactional outbox addresses the dual-write problem between a database update and event publication, but does not remove the possibility of duplicate publication; downstream consumers still need idempotency. Distributed commit timeouts create an unknown-outcome problem: the operation may have committed even when the caller did not receive confirmation.
