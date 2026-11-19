@@ -13,15 +13,16 @@ Anhydrobiosis is a reversible state in which an organism survives extreme drying
 
 | MP concept | What I identify in this query |
 |---|---|
-| Board | The tardigrade's habitat and body across dehydration, dry-state persistence and rehydration; relevant conditions vary by species and environment. |
-| P-Memory (Persistent Memory) | Persistent molecular and structural changes, including protective assemblies formed during stress. |
-| Constraints | Water availability, osmotic conditions, temperature, molecular stability and cellular damage tolerance. |
-| Editors | Dehydration-driven stresses and damage mechanisms affect which cellular structures remain intact. |
-| Ledger | No feeding input is available in the dry state; metabolic suppression reduces expenditure. The contribution of stored reserves and the energy cost of recovery are not quantified across species in the cited evidence. |
-| Flow Under Constraint | Water leaves cells during drying and re-enters during rehydration; molecular mobility and metabolism change with hydration state. |
+| Board | The tardigrade body during dehydration, dry-state persistence and rehydration; the relevant conditions vary by species and environment. |
+| P-Memory (Persistent Memory) | Persistent molecular and structural changes in the organism, including protective protein assemblies formed during stress. |
+| Constraints | Water availability, osmotic conditions, temperature, molecular stability and the limits of cellular damage tolerance. |
+| Editors | Dehydration-driven physical and chemical stresses that differentially damage or preserve cellular structures. |
+| Flow Under Constraint | Water leaves cells; molecular mobility, diffusion and metabolic activity change as dehydration proceeds. |
+| Audits | Rehydration and recovery measurements can test whether cellular function and survival were preserved; specific integrity checks vary by study. |
+| Identity | Not established as a distinct issue in this question beyond species and protein-family differences. |
 | Working Lines | Membrane integrity, protein aggregation, DNA damage and oxidative stress are candidate failure points. |
-| No Sacred States | Protein behaviour in hydrated solution cannot be assumed to remain the same in a dry cellular environment. |
-| Accumulation Patterns | Protective proteins can accumulate or assemble during dehydration. |
+| No Sacred States | A protein's behaviour in hydrated solution cannot be assumed to remain the same during dehydration or in a dry cellular environment. |
+| Accumulation Patterns | Protective proteins and other stress-associated molecules can accumulate or assemble as dehydration develops. |
 
 ## Mechanism and evidence
 

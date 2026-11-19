@@ -44,11 +44,21 @@ Use a table with these columns:
 | MP concept | What I identify in this query |
 |---|---|
 
-Select concepts because the query gives you a concrete reason to include them. Do not enumerate the framework or checklist. Include the concepts that materially explain the present question, plus plausible candidates worth retaining because they may matter in a likely follow-up. A compact inventory may contain only a few rows; a broader one is appropriate when the problem is layered. Ledger is an available concept and should be considered whenever energy, resources, capacity, reserves, maintenance costs or recovery budgets affect persistence or viability.
+Include the relevant core concepts and candidate lenses from the framework:
+- Board
+- P-Memory (Persistent Memory)
+- Constraints
+- Editors
+- Flow Under Constraint
+- Audits
+- Identity
+- Working Lines
+- No Sacred States
+- Accumulation Patterns
 
-For each included row, describe the actual feature, condition, process, residue, or relationship in the user's query. Do not copy definitions into the table. If a mapping is plausible but uncertain, label it as a candidate and say what is not yet established. Omit concepts that are irrelevant rather than filling rows with “not relevant” or “not established.”
+For each row, describe the actual feature, condition, process, residue, or relationship in the user's query that appears to correspond to the concept. Do not fill a row by copying the concept's definition. If a concept is not supported by the query, say **"Not established by the query"**. If it is clearly not useful to the present question, say **"Not relevant to this inquiry"**. A concept may be marked as a candidate or tentative mapping where the evidence is incomplete.
 
-The table is an inventory of the assistant's current reading, not an assertion that every concept is present. Do not force a mapping, infer an editor merely because something changes, infer an audit merely because a state is restored, or reduce P-Memory to an intended deliverable, stored record, or cognitive recollection. Do not make the inventory a checklist-coverage exercise: select what is needed, and retain additional candidates only when they may genuinely improve a foreseeable deeper inquiry. P-Memory refers to persistent structure shaped by past interactions; naturally occurring physical structures and phenomena qualify too. Do not equate a fleeting state with a persistent structure without considering the relevant timescale.
+The table is an inventory of the assistant's current reading, not an assertion that every concept is present. Do not force a mapping, infer an editor merely because something changes, infer an audit merely because a state is restored, or reduce P-Memory to an intended deliverable, stored record, or cognitive recollection. P-Memory refers to persistent structure shaped by past interactions; naturally occurring physical structures and phenomena qualify too. Do not equate a fleeting state with a persistent structure without considering the relevant timescale.
 
 **Put the inventory table before the interpretation, explanation, or research findings.** After it, proceed naturally: explain the phenomenon in domain language, distinguish evidence from inference, investigate useful uncertainties, and identify a productive next question. The table should make the assistant's interpretation easier to inspect and correct; it must not become a lengthy checklist or delay a straightforward answer.
 
@@ -64,7 +74,7 @@ Before building the inventory, use the user's orientation as an interpretation c
 2. **Build the pre-interpretation inventory.** Put the query-to-concept table first, identifying candidate MP concepts in the concrete query and marking unsupported or irrelevant concepts explicitly. Do not interpret the phenomenon until this mapping is visible.
 3. **Use the primary source when needed.** For framework-specific interpretation, consult the bundled Framework and relevant essays. Do not rely on the compressed checklist as a substitute for the source texts.
 4. **Select relevant entry questions.** Use the checklist selectively. Do not answer every item or display the full checklist unless asked.
-5. **Orient to conditions and mechanisms.** Identify constraints, editors or other outcome-filtering processes where relevant, flows, the Ledger (energy/resource availability, expenditure, reserves and minimum maintenance costs), accumulation, persistence, and transitions. Distinguish what moves (Flow), what builds up (Accumulation), and what the system can afford to maintain or recover (Ledger). Use ordinary domain language where possible.
+5. **Orient to conditions and mechanisms.** Identify constraints, editors or other outcome-filtering processes where relevant, flows, costs, accumulation, persistence, and transitions. Use ordinary domain language where possible.
 6. **Choose at most one or two optional lenses by default.** Use another only if it changes what you notice, infer, research, or ask next.
 7. **Research or test the next obvious question.** When tools and context permit, search sources, inspect supplied material, compare alternatives, calculate, or propose a concrete test. Do not repeatedly ask the user to direct research that you can do yourself.
 8. **Separate knowledge levels.** When material, distinguish direct/source-backed facts from inference, speculation, and unresolved questions. Cite external factual claims when research tools provide sources.
@@ -83,7 +93,7 @@ Before building the inventory, use the user's orientation as an interpretation c
 - **No forced jargon.** Use MP language internally as a guide; the final answer should use ordinary domain language where possible.
 - **No assumption laundering.** Label a hypothesis as a hypothesis; framework coherence does not turn it into evidence.
 - **Audit your own reasoning.** For substantive exploratory work, apply the Assistant reasoning audit in `references/starter-kit.md` before finalising. Use it to improve the answer, not as another visible checklist. Never invent an editor or claim information was unavailable without checking.
-- **No checklist theatre.** When a pre-interpretation inventory is useful, show a concise, selective query-to-concept table first. Do not enumerate every concept, add empty rows to demonstrate coverage, recite the rest of the checklist, list procedural steps, or announce lenses unnecessarily. Include Ledger when the resource/energy account changes the explanation; do not force it when it does not.
+- **No checklist theatre.** The pre-interpretation inventory is the requested exception: when MP is invoked for exploratory work, show the concise query-to-concept table first. Do not then recite the rest of the checklist, list procedural steps, or announce lenses unnecessarily.
 - **Clarify only when blocked.** If a missing detail does not prevent useful progress, state a reasonable assumption and proceed.
 - **Respect curiosity and agency.** Do enough work to create traction without deciding the entire route of exploration for the user.
 - **Answer settled parts directly.** Do not delay an answer to perform a framework exercise.

@@ -31,7 +31,6 @@ An especially interesting ecological detail is that Alaskan wood frogs can under
 | Working Lines | Blood circulation is a critical distribution pathway before freezing stops it; intracellular and extracellular compartments have different consequences for ice formation. |
 | No Sacred States | The frog's ordinary active state is not the only viable state; survival includes a prolonged frozen condition followed by recovery. |
 | Accumulation Patterns | Cryoprotectant accumulation and seasonal energy reserves build before and during early freeze-thaw events; repeated cycles can raise tissue glucose. |
-| Ledger | Liver glycogen supplies glucose for cryoprotection; stored substrates are mobilised before circulation stops, while metabolic depression reduces expenditure during freezing. Survival depends on sufficient preparation and reserves for freezing, the frozen interval and recovery—not simply on the presence of glucose. |
 
 ## What the comparison shows
 The conventional explanation already identifies the main biological mechanisms. MP makes the timing and dependencies especially visible: glucose must be mobilised and distributed before circulation stops; the location of ice matters; and survival depends on a prepared seasonal state rather than one miraculous antifreeze molecule.

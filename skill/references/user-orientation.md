@@ -51,7 +51,3 @@ Load-bearing places: where material, effort or structure combines to carry the s
 **No Sacred States**
 
 Behaviour expectations: don't assume a material, component or process will behave identically across different boards
-
-## Framework concept not separately defined in this user orientation
-
-**Ledger** is present in the canonical Framework but is not separately described in the user's concise concept notes above. The Framework defines it as literal accounting of energy in, energy out, and the minimum payments required to keep structure intact. Use the Framework as the source for this concept; do not attribute a user-authored definition to the user.

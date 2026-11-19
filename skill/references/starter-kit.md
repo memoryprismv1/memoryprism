@@ -52,20 +52,15 @@ Examples: a corner of a room can differ from the room as a whole; a learned conv
 **Flow and accumulation**
 - What is transferred or changed: matter, energy, information, people, pressure, money, effort, or something else?
 - What gradients, costs, paths, bottlenecks, or barriers shape that movement?
-- Which of those flows are inputs or expenditures that belong in the Ledger, rather than merely movements to describe?
 - What gets concentrated, repeated, stored, dissipated, removed, or left behind?
 - Does any reserve, residue, or filler affect how the arrangement works?
 
-**The Ledger — energy and resource accounting**
-- What energy, material, time, money, capacity or other resources are available?
-- What is stored as a reserve, and what must be acquired continuously?
-- What is consumed by operation, maintenance, repair, growth or recovery?
-- What are the minimum payments required to keep the structure intact?
-- What happens when inflow or reserves fall below those requirements?
-- What gets reduced, shed, sacrificed or allowed to fail first when the available budget no longer covers everything?
-- How much resource and time remain inside the correction window after a disturbance or failed change?
+**The survival ledger**
+- What ongoing cost or overhead is required to keep the arrangement going?
+- What happens when inflow falls below maintenance needs?
+- What gets reduced, shed, sacrificed, or allowed to fail first when the available budget no longer covers everything?
 
-The Framework's Ledger is literal energy accounting: energy in, energy out, and the minimum payments required to keep structure intact. Apply the same accounting discipline to other domains where appropriate (for example, compute, storage, I/O, connection capacity, operator time and retry budgets in software). Keep the domain quantities concrete; do not turn every cost into a vague financial metaphor. Distinguish the Ledger (availability and expenditure) from Flow (movement) and Accumulation (what builds up). Use it when resource availability or management affects viability; do not force it where it adds nothing.
+Use the ledger when costs and competing demands matter. Do not force a budget metaphor onto a topic where it adds nothing.
 
 ### 4. What makes the arrangement persist?
 
@@ -109,9 +104,9 @@ Prefer a next question that can change what we believe or do. If a settled answe
 
 Stop when you have a useful direction.
 
-## Optional lenses, including Ledger
+## Seven optional lenses
 
-These are a library of ways into a problem, not stages to complete. Use only the lenses that change what you notice, infer, research, or ask next. Ledger is an explicit Framework section and useful inquiry lens, not a mandatory row in every inventory.
+These are a library of ways into a problem, not seven stages. Use one or two by default. Use another only when it changes what you notice, infer, research, or ask next.
 
 - **Boards:** Which constraints and configurations make this possible? What changes when the board changes?
 - **Audits:** Is anything detecting deviation and correcting it, or does the system simply cross a threshold?
@@ -120,7 +115,6 @@ These are a library of ways into a problem, not stages to complete. Use only the
 - **Working Lines:** Which pathways enable function, and how might those same pathways transmit stress or failure?
 - **No Sacred States:** Are we treating a behaviour or state as intrinsic when it depends on surrounding conditions?
 - **Accumulation Patterns:** What turns contact or repeated presence into connected structure? Which parts carry load, which provide filler or reserve, and why might the structure be cheaper to maintain than dismantle?
-- **Ledger:** What energy and resources are available, what does maintenance consume, what reserves exist, and what minimum payments or recovery costs determine viability?
 
 After using a lens, ask: **Did it earn its keep?** If not, leave it out. Similar-looking patterns are leads for investigation, not proof of the same mechanism.
 

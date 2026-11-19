@@ -34,9 +34,6 @@ Challenge the leading hypothesis before changing settings:
 - If transaction IDs approach wraparound risk, anti-wraparound vacuum and freezing requirements take priority over ordinary bloat optimisation.
 - A replica, logical slot or prepared transaction should not be terminated casually; first establish ownership, business impact and recovery consequences.
 
-## Ledger
-Autovacuum has a concrete operating budget: worker slots, CPU and I/O capacity, cost throttling, available disk headroom, and time before transaction-ID age becomes dangerous. The database also carries a recovery budget: how long a blocker can remain, how much backlog can accumulate, and how much capacity remains to catch up. Increasing workers spends more system resources; it does not remove a visibility-horizon blocker. The plan must compare maintenance demand with available capacity and preserve sufficient headroom for normal workload and recovery.
-
 ## Research-grounded insight
 PostgreSQL vacuum has several distinct jobs: reclaiming dead row versions when they are no longer potentially visible, making space reusable, updating planner statistics (via ANALYZE, which is related but distinct), and freezing old transaction IDs to prevent wraparound. Autovacuum is a maintenance system, not a guarantee that every dead tuple can be removed immediately. The visibility horizon can be constrained by transactions and replication-related state. Diagnosis must therefore precede tuning.
 
@@ -63,7 +60,6 @@ PostgreSQL vacuum has several distinct jobs: reclaiming dead row versions when t
 | Episodic Memory | Keeps the sequence of observations, interventions and outcomes conceptually separate. | Proposed record-keeping practice, not an implemented telemetry feature. |
 | Semantic Memory | Organises PostgreSQL concepts: visibility horizons, vacuum, freezing, slots and reusable space. | Applied as structured domain knowledge. |
 | Procedural Memory | Encodes a cautious diagnose-before-tune workflow. | A proposed operational procedure, not an executed runbook. |
-| Ledger | Makes maintenance capacity, resource consumption, disk headroom and recovery time explicit; distinguishes a throughput shortfall from a cleanup blocker that extra capacity cannot fix. | Applied as a domain-relevant planning account; no live resource measurements were taken. |
 | Critical Thinking | Challenges the assumption that additional vacuum capacity solves every backlog. | Explicitly applied as a reasoning pass; not a separate blinded evaluator. |
 
 ## Evaluation criteria

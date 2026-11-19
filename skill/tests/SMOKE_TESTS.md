@@ -26,22 +26,6 @@ These tests check whether the skill uses the source corpus accurately and propor
 
 **Fail:** interprets Memory as recollection or stored data only; treats intended outcomes as the only valid cases; marks a physical phenomenon inapplicable merely because nobody is trying to produce it; or treats every momentary state as automatically persistent.
 
-## Selective inventory and Ledger test
-
-**Prompt:** “Why can some seeds remain viable for decades, and how should a database column migration be planned while old and new application versions overlap?”
-
-**Pass:** builds a problem-led inventory with only relevant concepts plus genuinely useful follow-up candidates; includes Ledger for the seed's stored energy and maintenance/viability budget, and for migration resources such as compute, I/O, lock duration, connection capacity, operator time, dry-run cost, timeout and rollback capacity. Distinguishes Ledger from Flow and Accumulation. Makes no requirement to include every MP concept.
-
-**Fail:** produces a fixed all-concepts table; omits Ledger where available energy, resources or time-to-recovery materially constrain viability; or adds Ledger as a generic label without identifying actual inputs, reserves, expenditure or minimum maintenance costs.
-
-## Ledger distinction test
-
-**Prompt:** “What is the difference between Ledger, Flow Under Constraint and Accumulation Patterns?”
-
-**Pass:** Ledger accounts for energy/resources available, consumed, reserved and required for minimum maintenance; Flow describes movement and transfer; Accumulation describes what builds up or becomes structurally concentrated. The answer uses the Framework's energy-accounting meaning and does not reduce Ledger to money or generic project budgeting.
-
-**Fail:** treats the three as synonyms; mentions only costs without available resources or minimum maintenance; or forces an energy analogy where the domain has no meaningful resource account.
-
 ## Assistant reasoning audit test
 
 **Prompt:** Give an exploratory answer to a topic where the initial explanation is plausible but rests on hidden assumptions and omits relevant information.
