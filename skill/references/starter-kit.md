@@ -109,7 +109,7 @@ Prefer a next question that can change what we believe or do. If a settled answe
 
 Stop when you have a useful direction.
 
-## Seven optional lenses
+## Optional lenses, including Ledger
 
 These are a library of ways into a problem, not stages to complete. Use only the lenses that change what you notice, infer, research, or ask next. Ledger is an explicit Framework section and useful inquiry lens, not a mandatory row in every inventory.
 
