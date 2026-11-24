@@ -6,7 +6,7 @@
 
 **What can persist, what changes, what gets filtered out—and why?**
 
-[Framework PDF](MemoryPrism-Framework.pdf) · [DOI](https://doi.org/10.5281/zenodo.19287268) · [About](ABOUT.md) · [Starter Kit](starter-kit/Memory-Prism-Starter-Kit-Checklist-v1.0.md) · [Documentation](docs/Home.md) · [Portable AI skill](skill/README.md) · [Skill source corpus](skill/references/source-corpus/README.md) · [Wiki sources](wiki-seed/Home.md)
+[Framework PDF](MemoryPrism-Framework.pdf) · [DOI](https://doi.org/10.5281/zenodo.19287268) · [About](ABOUT.md) · [Starter Kit](starter-kit/Memory-Prism-Starter-Kit-Checklist-v1.1.md) · [Docs](docs/Home.md) · [AI skill](skill/README.md) · [Tests](tests/README.md)
 
 </div>
 
@@ -14,68 +14,56 @@
 
 ![Memory Prism entry map](assets/memory-prism-entry-map.svg)
 
-Memory Prism is a way to enter an unfamiliar problem by examining the conditions under which things form, move, persist, and fail. It is meant to open an investigation—not to replace domain knowledge, prescribe every step, or turn curiosity into a checklist exercise.
+Memory Prism is a way to enter an unfamiliar problem by examining the conditions under which things form, move, persist and fail. It opens an investigation. It does not replace domain knowledge, prescribe every step, or turn curiosity into a checklist exercise.
 
-This repository began as a versioned home for the Framework PDF and now includes the Starter Kit, reference documentation, and a platform-neutral AI skill. The published framework remains the primary source; these are companion tools for applying it.
+The published **Framework** is the primary source. Everything else here is a companion tool for applying it.
 
 ## Start here
 
-| I want to… | Start with |
+| I want to… | Go to |
 |---|---|
-| Understand the framework's core concepts | [Framework PDF](MemoryPrism-Framework.pdf) |
-| Get traction on an unfamiliar topic | [Starter Kit checklist](starter-kit/Memory-Prism-Starter-Kit-Checklist-v1.0.md) |
-| Understand the seven supporting lenses | [The seven lenses](docs/seven-lenses.md) |
-| See how to use MP without over-applying it | [How to use Memory Prism](docs/using-memory-prism.md) |
-| Use the approach with an AI assistant | [Portable skill package](skill/README.md) |
-| Browse the documentation | [Documentation home](docs/Home.md) |
+| Understand the core concepts | [Framework PDF](MemoryPrism-Framework.pdf) (searchable text: [Markdown](skill/memory-prism/references/source-corpus/Memory-Prism-Framework.md)) |
+| Get traction on an unfamiliar topic | [Starter Kit checklist v1.1](starter-kit/Memory-Prism-Starter-Kit-Checklist-v1.1.md) |
+| See the seven optional lenses | [The seven lenses](docs/seven-lenses.md) |
+| Use it without over-applying it | [How to use Memory Prism](docs/using-memory-prism.md) |
+| Use it with an AI assistant | [Skill package](skill/README.md) |
+| Run or score the tests | [Tests](tests/README.md) · [Daily protocol](tests/daily/README.md) · [Scoring](tests/daily/SCORING.md) |
+| Check what was verified against the sources | [Checklist verification](docs/checklist-verification.md) |
 
 ## The entry point
 
-The starter kit asks a small set of questions, used selectively:
+Six questions, used selectively. They are prompts, not mandatory steps.
 
 1. What am I actually trying to understand?
 2. What is the board?
-3. What moves, accumulates, and costs something?
-4. What makes the arrangement persist?
-5. Where does it change, get corrected, or fail?
+3. What moves, accumulates, and costs something? *(flow and accumulation; the ledger)*
+4. What makes the arrangement persist? *(pile check; drift and maintenance; identity)*
+5. Where does it change, get interpreted, corrected or fail?
 6. What is the best next question?
 
-These are prompts, not mandatory steps. Skip questions that add no value. The checklist has done its job when it helps identify a productive next move.
+Skip questions that add nothing. The checklist has done its job when it helps find a productive next move.
 
-## The seven supporting essays
+## Sources
 
-The starter kit is derived from the Memory Prism Framework and exactly these seven supporting essays:
+The Starter Kit is derived from the Framework and exactly seven supporting essays:
 
-- **Boards**
-- **Audits**
-- **Identity**
-- **Flow Under Constraint**
-- **Working Lines**
-- **No Sacred States**
-- **Accumulation Patterns**
+- **Foundation:** Boards · Audits · Identity · Flow Under Constraint
+- **Supplementary:** Working Lines · No Sacred States · Accumulation Patterns
 
-They are optional lenses during application, not seven boxes every topic must fill. See [the seven lenses](docs/seven-lenses.md).
-
-## Source library included with the skill
-
-The platform-neutral skill bundles searchable text for the Framework and complete texts for the four Foundation essays—**Boards, Audits, Identity, Flow Under Constraint**—and the three Supplementary essays—**Working Lines, No Sacred States, Accumulation Patterns**. The [source-corpus guide](skill/references/source-corpus/README.md) records canonical URLs, provenance, attribution, and licence.
-
-The essays are available to ground interpretation; their presence does not make every lens mandatory in every response. The published Framework PDF remains the canonical artifact at the repository root.
-
-## Canonical record and citation
-
-The framework has two DOI forms: the **concept DOI [10.5281/zenodo.19287268](https://doi.org/10.5281/zenodo.19287268)** for general reference across versions, and the **version 1.0 DOI [10.5281/zenodo.19287269](https://doi.org/10.5281/zenodo.19287269)** for citing the specific release published in March 2026. The concept DOI resolves to the latest version. Citation guidance is in [`CITATION.cff`](CITATION.cff) and [`CITATION.md`](CITATION.md); official source links are collected in [`SOURCES.md`](SOURCES.md).
+They are optional lenses, not seven boxes every topic must fill. Ledger, Translator, viability and the other concepts in the Framework itself are core, not lenses. Full texts, canonical URLs, provenance and licence: [source corpus](skill/memory-prism/references/source-corpus/README.md) · [SOURCES.md](SOURCES.md).
 
 ## Repository map
 
 ```text
-MemoryPrism-Framework.pdf   Foundational framework document
-docs/                       Human-readable reference documentation
-starter-kit/                Canonical checklist source
-skill/                      Platform-neutral skill, complete source corpus, and tests
-wiki-seed/                  Markdown pages prepared for GitHub Wiki
-assets/                     README visual assets
-CONTRIBUTING.md             Editorial and contribution guidance
+MemoryPrism-Framework.pdf   The published Framework (primary source)
+starter-kit/                The canonical checklist (single source of truth)
+skill/memory-prism/         Installable AI skill: SKILL.md + references + source corpus
+tests/                      smoke/ (skill behaviour) · daily/ (protocol + scoring) · records/
+docs/                       Human-readable reference and verification notes
+wiki-seed/                  Pages prepared for the separate GitHub Wiki
+case-studies/               Worked applications (not part of the source boundary)
+assets/                     README visuals
+tools/check_repo.py         Consistency checks (checklist sync, links, test index)
 ```
 
 ## Editorial commitments
@@ -83,15 +71,15 @@ CONTRIBUTING.md             Editorial and contribution guidance
 - **Framework first; examples are not definitions.**
 - **Domain mechanisms outrank analogies.** A structural resemblance is a lead, not proof of a shared mechanism.
 - **Evidence and inference stay distinct.**
-- **The assistant does the next obvious piece of work.** It should research, compare, inspect, or test instead of repeatedly handing the investigation back to the user.
+- **The assistant does the next obvious piece of work** instead of handing the investigation back.
 - **No forced coverage.** A lens must earn its place.
-- **Answer settled questions directly.** Use MP to open the uncertain part, not to delay an answer.
-- **Stop before furnishing every room.** This is a starter kit, not a total analysis protocol.
+- **Answer settled questions directly.** Use MP on the uncertain part.
+- **Stop before furnishing every room.**
 
-## Status
+## Citation and licence
 
-The framework PDF remains the primary framework artifact. The checklist and AI skill are companion tools for entering and investigating topics. Documentation is organised in `docs/`; prepared GitHub Wiki page sources live in `wiki-seed/`. The Wiki feature is enabled, but the separate Wiki pages must be initialised and published separately from regular repository files.
+Concept DOI [10.5281/zenodo.19287268](https://doi.org/10.5281/zenodo.19287268) (all versions); version 1.0 DOI [10.5281/zenodo.19287269](https://doi.org/10.5281/zenodo.19287269) (March 2026 release). See [`CITATION.cff`](CITATION.cff) and [`CITATION.md`](CITATION.md).
 
-## License and reuse
+The official site states **CC BY-NC 4.0** for Memory Prism v1.0; [`LICENSE.md`](LICENSE.md) documents its scope for original content here. Non-commercial sharing and adaptation are permitted under the licence; commercial use needs separate permission. Third-party material keeps its own rights. This is a content licence, not an OSI open-source software licence.
 
-The official Memory Prism site states **CC BY-NC 4.0** for Memory Prism v1.0. [`LICENSE.md`](LICENSE.md) documents the scope for original project content in this repository. Non-commercial sharing and adaptation are permitted under the licence terms; commercial use requires separate permission. Third-party materials retain their own rights. This is a content licence, not an OSI-approved open-source software licence.
+See [`CHANGELOG.md`](CHANGELOG.md) for the latest restructuring and old-to-new path map.

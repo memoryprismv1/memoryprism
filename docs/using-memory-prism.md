@@ -13,7 +13,7 @@ Then follow the most useful domain-specific question.
 
 ## Use lenses selectively
 
-The seven lenses are optional. One or two are usually enough to orient the first pass; sometimes none are needed. A lens is useful only if it changes what you notice or what you do next.
+The seven lenses are optional, with no quota and no cap. Often one or two are enough to orient the first pass; sometimes none are needed. A lens is useful only if it changes what you notice or what you do next.
 
 Do not perform a full sweep just because the checklist contains six questions. Skip irrelevant questions without apology.
 

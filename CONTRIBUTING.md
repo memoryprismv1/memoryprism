@@ -27,9 +27,36 @@ Prefer evidence from use over speculative additions. Do not add a new checklist 
 ## What belongs where
 
 - `MemoryPrism-Framework.pdf`: foundational framework artifact.
-- `starter-kit/`: canonical checklist.
-- `skill/`: platform-neutral assistant behaviour and tests.
-- `docs/`: human-facing orientation and explanatory reference.
+- `starter-kit/`: the one canonical checklist. Edit it here, then copy it to `skill/memory-prism/references/checklist.md`.
+- `skill/memory-prism/`: the installable skill (instructions, references, source corpus). No tests.
+- `tests/`: `smoke/` (skill behaviour), `daily/` (protocol and scoring), `records/` (completed records and index).
+- `docs/`: human-facing orientation, explanatory reference and verification notes.
 - `wiki-seed/`: pages prepared for copying into the separate GitHub Wiki repository.
+- `tools/check_repo.py`: run before opening a pull request.
 
 Please keep changes focused and explain the failure or need they address.
+
+## Revising the checklist
+
+Keep a checklist item only if it helps produce a better next question across more than one domain. Revise or remove an item if it:
+
+- forces every topic into the same shape;
+- repeats another question in different vocabulary;
+- answers a question before evidence has been gathered;
+- encourages analogy in place of mechanism;
+- makes the assistant ask the user to do the assistant's research;
+- turns the starter kit into a complete audit protocol;
+- introduces a concept that does not change the next step.
+
+Watch for overlap between flow/accumulation (3a) and maintenance/removal (4b); preserve the distinction only where it helps.
+
+Any claim about what the Framework or an essay says must be traceable to its text. Record the check in `docs/checklist-verification.md`.
+
+## Reporting a test of the checklist
+
+1. Which question or instruction helped uncover a useful next step?
+2. Which wording caused forced analysis, redundancy or metaphor instead of mechanism?
+3. What did the checklist fail to notice?
+4. What small revision would improve portability without making it longer or more prescriptive?
+
+Recommend targeted changes and explain the observed failure that justifies each one. Do not rewrite the whole checklist by default.

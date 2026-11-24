@@ -1,5 +1,7 @@
 # Memory Prism Skill — Smoke Tests
 
+Paths such as `references/…` are relative to the skill folder, `skill/memory-prism/`.
+
 These tests check whether the skill uses the source corpus accurately and proportionately. They test behaviour, not the ability to repeat Memory Prism vocabulary.
 
 ## Source-grounding test
@@ -82,7 +84,35 @@ These tests check whether the skill uses the source corpus accurately and propor
 
 **Failure signs:** delaying the answer to apply the checklist; assuming 100% is the ideal resting state; replacing device guidance with analogy.
 
-## Scoring (per test)
+## F — Mantis shrimp club and “strongest material” claims
+
+**Prompt:** “The mantis shrimp's striking club is sometimes described as one of the strongest materials in nature. Is it literally the strongest material on Earth, and how does it survive repeated impacts?”
+
+**Look for:** separating the whole biological structure from a material tested in isolation; identifying the relevant performance measure (impact resistance, hardness, fracture toughness, energy dissipation, or strength); explaining the club's layered/composite architecture only to the level supported by evidence; distinguishing a plausible mechanism from demonstrated performance; and checking what is known about damage, wear, and biological maintenance.
+
+**Failure signs:** declaring a universal “strongest material” without specifying a metric; treating hardness, strength, and toughness as interchangeable; assuming the club never accumulates damage or that its maintenance mechanism is known without evidence; turning an appealing “animal cement” analogy into a factual explanation; or using Memory Prism structure as a substitute for materials-science sources.
+
+**Discriminating next question:** Which measured property and test conditions support the “strongest” claim, and what evidence connects the club's microstructure to its impact performance over repeated strikes?
+
+## G — Ledger is core, and dormancy defers payment
+
+**Prompt:** “A dormant seed can germinate after years. Is it ‘off’? What does it still owe, and is Ledger just an optional lens here?”
+
+**Look for:** Ledger treated as an original Framework concept; dormancy as a paused or deferred payment on an open ledger, not a closed account; a stored reserve, maintenance cost and repair of damage during dormancy, and what germination and early growth will need; concrete quantities rather than a money metaphor; Ledger kept distinct from Flow and Accumulation.
+
+**Failure signs:** presenting Ledger as one of the seven optional lenses or as a newly added item; calling the seed's account closed; reducing the answer to “energy budget” with no concrete reserve or repair cost.
+
+## H — Translator versus threshold
+
+**Prompt:** “Is a spectrometer a translator in Memory Prism? Is a rock that cracks when stress passes a limit performing an audit?”
+
+**Look for:** the Framework's sense of translator (a system that extracts differentiation from structure; a spectrometer is one of its own examples); the distinction between a threshold-only system (transitions when limits are crossed) and an audit-enabled one (detects deviation against a viability envelope and corrects); the Audits essay's own contrast between rocks and cells.
+
+**Failure signs:** calling every measurement or threshold an audit; claiming the rock senses or corrects; treating translator as a human-only observer; answering without consulting the Framework or the Audits essay.
+
+## Scoring (per smoke test)
+
+These six dimensions score **skill behaviour on a smoke test**. Daily inquiry records use the separate rubric in `tests/daily/SCORING.md`.
 
 Score each dimension 0, 1, or 2:
 - **0:** absent or clearly mishandled.
@@ -102,14 +132,3 @@ Maximum: 12 per test. Scores are diagnostic, not a competition; note the failure
 ## Evaluation question
 
 **Did the source corpus help the assistant interpret Memory Prism more faithfully, and did the checklist help find a better next question or action?** If not, identify the missing source or instruction before changing the checklist.
-
-
-## F — Mantis shrimp club and “strongest material” claims
-
-**Prompt:** “The mantis shrimp's striking club is sometimes described as one of the strongest materials in nature. Is it literally the strongest material on Earth, and how does it survive repeated impacts?”
-
-**Look for:** separating the whole biological structure from a material tested in isolation; identifying the relevant performance measure (impact resistance, hardness, fracture toughness, energy dissipation, or strength); explaining the club's layered/composite architecture only to the level supported by evidence; distinguishing a plausible mechanism from demonstrated performance; and checking what is known about damage, wear, and biological maintenance.
-
-**Failure signs:** declaring a universal “strongest material” without specifying a metric; treating hardness, strength, and toughness as interchangeable; assuming the club never accumulates damage or that its maintenance mechanism is known without evidence; turning an appealing “animal cement” analogy into a factual explanation; or using Memory Prism structure as a substitute for materials-science sources.
-
-**Discriminating next question:** Which measured property and test conditions support the “strongest” claim, and what evidence connects the club's microstructure to its impact performance over repeated strikes?

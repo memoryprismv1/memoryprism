@@ -33,13 +33,9 @@ A planet is a board.
 
 Boards are stable for now.
 
-### 
+### Disciplines: physics, materials science, thermodynamics, geology
 
-Disciplines: physics, materials science, thermodynamics, geology
-
-## 
-
-Nested Boards and Dominance
+## Nested Boards and Dominance
 
 Boards are nested hierarchically.
 
@@ -61,13 +57,9 @@ External override occurs when a higher board shifts the regime.
 
 These must be distinguished.
 
-### 
+### Disciplines: systems theory, geophysics, planetary science
 
-Disciplines: systems theory, geophysics, planetary science
-
-## 
-
-Core Variables of a Board
+## Core Variables of a Board
 
 Boards differ by configuration of interlinked variables:
 
@@ -95,13 +87,9 @@ These variables are coupled:
 
 Boards are constraint labs defined by these parameters.
 
-### 
+### Disciplines: ecology, fluid dynamics, statistical mechanics
 
-Disciplines: ecology, fluid dynamics, statistical mechanics
-
-## 
-
-Sparse vs Dense Boards
+## Sparse vs Dense Boards
 
 Variance and Mobility
 
@@ -129,13 +117,9 @@ Dense boards reduce variance and allow reduced mobility.
 
 Variance drives architecture.
 
-### 
+### Disciplines: population ecology, evolutionary biology, statistical physics
 
-Disciplines: population ecology, evolutionary biology, statistical physics
-
-## 
-
-Archive Boards
+## Archive Boards
 
 When Renewal Is Slower Than Residue Accumulation
 
@@ -165,13 +149,9 @@ Archive status depends on low disturbance and low turnover.
 
 Stable for now.
 
-### 
+### Disciplines: sedimentology, limnology, paleoclimatology
 
-Disciplines: sedimentology, limnology, paleoclimatology
-
-## 
-
-Gradual Hardening Boards
+## Gradual Hardening Boards
 
 Narrowing Configuration Space
 
@@ -197,13 +177,9 @@ Configuration space narrowed, selecting specialized architectures.
 
 Hardening increases time constants and reduces allowable variation.
 
-### 
+### Disciplines: oceanography, evolutionary biology, thermodynamics
 
-Disciplines: oceanography, evolutionary biology, thermodynamics
-
-## 
-
-Rivers Under Hardening
+## Rivers Under Hardening
 
 Under aridification, river persistence depends on:
 
@@ -225,13 +201,9 @@ Failure occurs when active transport ceases under unchanged constraints.
 
 Dry paleochannels represent deletion of flow memory.
 
-### 
+### Disciplines: geomorphology, hydrology, climate science
 
-Disciplines: geomorphology, hydrology, climate science
-
-## 
-
-Resizing Boards
+## Resizing Boards
 
 Maintenance-to-Intake Ratio
 
@@ -257,13 +229,9 @@ Dwarfism emerges when intake cannot sustain maintenance demands.
 
 Resizing aligns architecture with budget.
 
-### 
+### Disciplines: physiology, metabolic ecology, island biogeography
 
-Disciplines: physiology, metabolic ecology, island biogeography
-
-## 
-
-Exit Boards
+## Exit Boards
 
 When Persistence Requires Departure or State Change
 
@@ -275,9 +243,7 @@ Repair time constant > disturbance escalation → exit required.
 
 There are two distinct exit regimes.
 
-## 
-
-Type I: Erratic Exit Boards
+## Type I: Erratic Exit Boards
 
 Variance-Driven Escape
 
@@ -333,13 +299,9 @@ The board stopped paying for wings.
 
 Erratic exit boards select for flexible, reactive escape.
 
-### 
+### Disciplines: disturbance ecology, behavioral ecology, evolutionary biology
 
-Disciplines: disturbance ecology, behavioral ecology, evolutionary biology
-
-## 
-
-Type II: Planned Exit Boards
+## Type II: Planned Exit Boards
 
 Predictable Cyclical Transition
 
@@ -379,13 +341,9 @@ Systems move before local collapse.
 
 If periodicity destabilizes, planned exit boards degrade into erratic boards.
 
-### 
+### Disciplines: migration ecology, chronobiology, population dynamics
 
-Disciplines: migration ecology, chronobiology, population dynamics
-
-## 
-
-Cosmic Boards
+## Cosmic Boards
 
 Material Possibility and Radioactive Time
 
@@ -409,13 +367,9 @@ Half-life sets internal energy time constant.
 
 Cosmic boards define material possibility before biological boards emerge.
 
-### 
+### Disciplines: astrophysics, nuclear physics, planetary geology
 
-Disciplines: astrophysics, nuclear physics, planetary geology
-
-## 
-
-Minimal Boards: Atom and Rock
+## Minimal Boards: Atom and Rock
 
 Atomic board:
 
@@ -443,13 +397,9 @@ A radioactive isotope is a timed board.
 
 Boards begin at bound-state formation.
 
-### 
+### Disciplines: atomic physics, crystallography, combustion chemistry
 
-Disciplines: atomic physics, crystallography, combustion chemistry
-
-## 
-
-Board Stability and Failure
+## Board Stability and Failure
 
 Boards remain stable while dominant constraints remain continuous.
 
@@ -463,13 +413,9 @@ Residue may remain.
 
 Stable for now.
 
-### 
+### Disciplines: resilience science, systems theory, evolutionary dynamics
 
-Disciplines: resilience science, systems theory, evolutionary dynamics
-
-## 
-
-Structural Synthesis
+## Structural Synthesis
 
 Boards are persistent structured configurations under constraint.
 

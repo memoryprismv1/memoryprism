@@ -15,13 +15,11 @@ Because what we call “behavior” is not intrinsic to the material.
 
 It is the result of the board the material is placed in.
 
-\> Material rules are board specific.
+> Material rules are board specific.
 
 What we call odd is just material obeying its board.
 
-## 
-
-The First Crack: When Familiar Materials Stop Behaving
+## The First Crack: When Familiar Materials Stop Behaving
 
 Start with something simple.
 
@@ -57,9 +55,7 @@ Different board.
 
 Different “truth.”
 
-## 
-
-Even rock is not safe.
+## Even rock is not safe.
 
 At the Kola Superdeep Borehole, drilling into Earth’s crust revealed something unexpected.
 
@@ -75,17 +71,13 @@ Under:
 
 It stopped fracturing and began to flow plastically.
 
-\> Rock did not change.
+> Rock did not change.
 
 The board stopped allowing brittleness.
 
-### 
+### Disciplines: Thermodynamics, Physical Chemistry
 
-Disciplines: Thermodynamics, Physical Chemistry
-
-## 
-
-Cohesion Is Not Enough
+## Cohesion Is Not Enough
 
 We assume droplets because we see droplets.
 
@@ -93,7 +85,7 @@ Water forms droplets. Rain falls.
 
 So we generalize:
 
-\> liquids → droplets
+> liquids → droplets
 
 This is wrong.
 
@@ -107,17 +99,13 @@ Cohesion exists — but whether it expresses depends on the board.
 
 - Charge fields → droplets repel and fragment
 
-\> Cohesion exists everywhere.
+> Cohesion exists everywhere.
 
 Droplets exist only where cohesion wins.
 
-### 
+### Disciplines: Fluid Dynamics, Surface Physics
 
-Disciplines: Fluid Dynamics, Surface Physics
-
-## 
-
-Clouds Are Not Water — They Are Experiments
+## Clouds Are Not Water — They Are Experiments
 
 On Earth:
 
@@ -143,7 +131,7 @@ These clouds:
 
 - evaporate before reaching the surface
 
-\> Rain that never lands.
+> Rain that never lands.
 
 Same idea.
 
@@ -153,13 +141,9 @@ Different board.
 
 Different outcome.
 
-### 
+### Disciplines: Atmospheric Science, Cloud Microphysics, Planetary Science
 
-Disciplines: Atmospheric Science, Cloud Microphysics, Planetary Science
-
-## 
-
-Vertical Labs — Where Boards Stack
+## Vertical Labs — Where Boards Stack
 
 Some systems don’t just host a board.
 
@@ -221,13 +205,9 @@ On Jupiter: the Great Red Spot
 
 A long-duration atmospheric lab.
 
-### 
+### Disciplines: Meteorology, Geophysics, Fluid Dynamics, Planetary Science
 
-Disciplines: Meteorology, Geophysics, Fluid Dynamics, Planetary Science
-
-## 
-
-When There Is No Surface
+## When There Is No Surface
 
 We assume landing.
 
@@ -251,15 +231,11 @@ It becomes part of a high-pressure, continuously mixing system
 
 Call it what it is:
 
-\> Neptune is a surface slurry.
+> Neptune is a surface slurry.
 
-### 
+### Disciplines: Planetary Science, High-Pressure Physics
 
-Disciplines: Planetary Science, High-Pressure Physics
-
-## 
-
-Edges, Erosion, and Absence of Interaction
+## Edges, Erosion, and Absence of Interaction
 
 Same material: sand.
 
@@ -279,17 +255,13 @@ In the Sahara Desert:
 
 → particles become rounded
 
-\> Shape is not intrinsic.
+> Shape is not intrinsic.
 
 It is interaction history under a board.
 
-### 
+### Disciplines: Geomorphology, Sedimentology
 
-Disciplines: Geomorphology, Sedimentology
-
-## 
-
-Rings: Same Debris, Different Fate
+## Rings: Same Debris, Different Fate
 
 On Saturn:
 
@@ -321,23 +293,19 @@ Weak editors:
 
 - ongoing degradation
 
-\> Same idea: debris
+> Same idea: debris
 
 Different board: structure vs decay
 
-### 
+### Disciplines: Orbital Mechanics, Planetary Science
 
-Disciplines: Orbital Mechanics, Planetary Science
-
-## 
-
-Atmospheres: Not What You Have, But What You Can Hold
+## Atmospheres: Not What You Have, But What You Can Hold
 
 Atmospheres are not static possessions.
 
 They are outcomes of:
 
-\> escape vs generation
+> escape vs generation
 
 Low escape + low generation → no atmosphere
 
@@ -355,19 +323,15 @@ Venus adds another layer:
 
 - hydrogen escapes slowly
 
-\> A recycling system running on a slowly draining reservoir
+> A recycling system running on a slowly draining reservoir
 
-### 
+### Disciplines: Atmospheric Physics, Planetary Science
 
-Disciplines: Atmospheric Physics, Planetary Science
-
-## 
-
-Nothing Is Locked
+## Nothing Is Locked
 
 There is a temptation:
 
-\> “If we can’t break it, it must be fundamental.”
+> “If we can’t break it, it must be fundamental.”
 
 This is wrong.
 
@@ -385,17 +349,13 @@ Then:
 
 - they fuse
 
-\> “Locked” just means:
+> “Locked” just means:
 
 no available editor strong enough on the current board.
 
-### 
+### Disciplines: Nuclear Physics, High-Energy Physics
 
-Disciplines: Nuclear Physics, High-Energy Physics
-
-## 
-
-Editors — The Real Drivers
+## Editors — The Real Drivers
 
 Boards act through editors:
 
@@ -413,15 +373,11 @@ These do not change the material.
 
 They change:
 
-\> which behaviors become selectable
+> which behaviors become selectable
 
-### 
+### Disciplines: Physics, Chemistry, Systems Thinking
 
-Disciplines: Physics, Chemistry, Systems Thinking
-
-## 
-
-Biology Is Not Different
+## Biology Is Not Different
 
 Take rabbits.
 
@@ -443,13 +399,9 @@ The difference:
 
 Material behavior = immediate board selection.
 
-### 
+### Disciplines: Evolutionary Biology, Ecology
 
-Disciplines: Evolutionary Biology, Ecology
-
-## 
-
-Cohesion, Stability, and the Myth of Intrinsic Behavior
+## Cohesion, Stability, and the Myth of Intrinsic Behavior
 
 We say:
 
@@ -461,7 +413,7 @@ We say:
 
 But these are:
 
-\> board-conditioned outcomes
+> board-conditioned outcomes
 
 Change the board:
 
@@ -487,13 +439,9 @@ There are:
 
 - and board-dependent expressions
 
-### 
+### Disciplines: Surface Physics, Thermodynamics
 
-Disciplines: Surface Physics, Thermodynamics
-
-## 
-
-Recognition Is Also Board-Dependent
+## Recognition Is Also Board-Dependent
 
 We assume recognition is direct.
 
@@ -507,7 +455,7 @@ But recognition is not direct.
 
 It is:
 
-\> pattern matching against familiar board-conditioned behavior
+> pattern matching against familiar board-conditioned behavior
 
 What we recognize as water is not H₂O.
 
@@ -525,7 +473,7 @@ It is:
 
 All of these are:
 
-\> Earth-board expressions
+> Earth-board expressions
 
 Change the board, and recognition fails.
 
@@ -547,7 +495,7 @@ becomes:
 
 It no longer matches:
 
-\> our recognition patterns
+> our recognition patterns
 
 This is why instruments exist.
 
@@ -565,7 +513,7 @@ In Analytical Chemistry and Spectroscopy:
 
 These are:
 
-\> less board-dependent identifiers
+> less board-dependent identifiers
 
 Even then:
 
@@ -575,7 +523,7 @@ Even then:
 
 Recognition becomes:
 
-\> mediated, not direct
+> mediated, not direct
 
 So there are two layers:
 
@@ -597,13 +545,13 @@ Instrument-based recognition
 
 The shift
 
-\> Without instruments, we do not recognize materials.
+> Without instruments, we do not recognize materials.
 
 We recognize their behavior on a familiar board.
 
 Extension of the rule
 
-\> Recognition itself is board-specific.
+> Recognition itself is board-specific.
 
 This closes the loop:
 
@@ -623,14 +571,10 @@ is not identification.
 
 It is:
 
-\> successful pattern matching within a known board
+> successful pattern matching within a known board
 
-### 
+### Disciplines: Analytical Chemistry, Instrumentation, Perception Science
 
-Disciplines: Analytical Chemistry, Instrumentation, Perception Science
-
-## 
-
-Conclusion.
+## Conclusion.
 
 Materials do not behave. They obey their board.

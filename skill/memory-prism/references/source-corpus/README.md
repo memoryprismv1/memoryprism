@@ -41,7 +41,15 @@ Retain attribution and licence notices with copies and adaptations. Commercial u
 
 ## Provenance and fidelity
 
-The texts were extracted from the project's archived combined source export and placed into individual Markdown files. Only duplicate title/heading artifacts and obvious page-join markers were normalized. No argument-level revision was intended. Because these are source extracts rather than new canonical publications, consult the official pages for a current web copy and the PDF for the published Framework layout.
+The texts were extracted from the project's archived combined source export and placed into individual Markdown files. Duplicate title/heading artifacts and obvious page-join markers were normalized at extraction. No argument-level revision was intended.
+
+**Revision 2026-11-23 (formatting only).** The extraction had left empty `##`/`###` heading lines above each section title in seven of the eight files. Each title was moved onto its heading line, and escaped list/quote markers (`\-`, `\>`) were unescaped. A word-level comparison confirmed the text of every file is unchanged by this step.
+
+**Framework text checked against the PDF.** `Memory-Prism-Framework.md` was compared with the text layer of `MemoryPrism-Framework.pdf` (11 pages, generated 28 March 2026). Word-level similarity is 0.986. All differences are PDF page chrome (print date, URL footer, page numbers), and one passage whose glyphs overlap in the PDF text layer (the killifish/hibernating-mammals sentence), which the Markdown has correctly. `python3 tools/check_repo.py` repeats the check.
+
+**Not verified.** The seven essays were not compared with the live pages at memoryprism.com (no network access during the revision). Consult the official pages for the current web copy.
+
+Because these are source extracts rather than new canonical publications, consult the PDF for the published Framework layout.
 
 ## How the skill should use this corpus
 

@@ -17,9 +17,7 @@ It is not abstract “selfhood.”
 
 It is structural quality assurance governing component membership under finite energy.
 
-## 
-
-Structural Separation Is Not Enough
+## Structural Separation Is Not Enough
 
 Oil and water separate because of molecular incompatibility. They maintain distinct phases without surveillance, without repair, without escalation. Separation here is equilibrium behavior.
 
@@ -55,13 +53,9 @@ Non-living systems settle into compatibility equilibrium.
 
 Living systems must continuously manage membership to preserve organized gradients.
 
-### 
+### Disciplines: Cell Biology, Biochemistry, Thermodynamics (contrastive), Systems Physiology
 
-Disciplines: Cell Biology, Biochemistry, Thermodynamics (contrastive), Systems Physiology
-
-## 
-
-Internal QA: Membership Within the Boundary
+## Internal QA: Membership Within the Boundary
 
 Identity enforcement is not limited to external encroachers.
 
@@ -87,13 +81,9 @@ Apoptosis is structural elimination.
 
 A living system must decide what remains part of itself.
 
-### 
+### Disciplines: Molecular Biology, Developmental Biology, Cellular Physiology, Evolutionary Biology
 
-Disciplines: Molecular Biology, Developmental Biology, Cellular Physiology, Evolutionary Biology
-
-## 
-
-Finite Budgets and Cost-Weighted Classification
+## Finite Budgets and Cost-Weighted Classification
 
 There are no unlimited budgets in living systems.
 
@@ -135,13 +125,9 @@ If no — tolerate or compartmentalize.
 
 If beneficial — integrate.
 
-### 
+### Disciplines: Systems Biology, Immunometabolism, Evolutionary Ecology, Bioenergetics
 
-Disciplines: Systems Biology, Immunometabolism, Evolutionary Ecology, Bioenergetics
-
-## 
-
-Regional Identity: Same Organism, Different Rules
+## Regional Identity: Same Organism, Different Rules
 
 High-turnover regions do not enforce identity identically.
 
@@ -163,13 +149,9 @@ Identity enforcement is region-specific because gradients differ.
 
 It is not a uniform immune blanket. It is localized governance under gradient constraints.
 
-### 
+### Disciplines: Immunology, Microbial Ecology, Tissue Biology, Physiology
 
-Disciplines: Immunology, Microbial Ecology, Tissue Biology, Physiology
-
-## 
-
-Compatibility vs Enforcement
+## Compatibility vs Enforcement
 
 Compatibility determines whether integration is structurally possible.
 
@@ -201,13 +183,9 @@ Plant warfare is directed largely outward:
 
 Plants are not “soft identity systems.” They are structurally permissive where compatible and actively defensive where destabilized.
 
-### 
+### Disciplines: Plant Physiology, Developmental Biology, Chemical Ecology, Biophysics
 
-Disciplines: Plant Physiology, Developmental Biology, Chemical Ecology, Biophysics
-
-## 
-
-Sequestration: Location, Location, Location
+## Sequestration: Location, Location, Location
 
 Not all foreign elements are removed.
 
@@ -227,13 +205,9 @@ Sequestration is spatial modulation of identity enforcement.
 
 Location determines enforcement intensity.
 
-### 
+### Disciplines: Marine Biology, Cellular Compartmentalization, Evolutionary Adaptation
 
-Disciplines: Marine Biology, Cellular Compartmentalization, Evolutionary Adaptation
-
-## 
-
-From Tolerance to Marriage: Inheritance Locks Identity
+## From Tolerance to Marriage: Inheritance Locks Identity
 
 Temporary tolerance becomes integration when vertically inherited.
 
@@ -249,13 +223,9 @@ Identity enforcement shifts from exclusion to structural incorporation.
 
 Not because of intent — but because compatible integration stabilized survival under constraint.
 
-### 
+### Disciplines: Evolutionary Biology, Symbiosis Research, Genetics, Earth System Biology
 
-Disciplines: Evolutionary Biology, Symbiosis Research, Genetics, Earth System Biology
-
-## 
-
-Gateways and Infiltration
+## Gateways and Infiltration
 
 Identity enforcement is uneven.
 
@@ -283,13 +253,9 @@ Fusion and infiltration depend on:
 
 Weak spots arise not from negligence, but from finite monitoring capacity.
 
-### 
+### Disciplines: Parasitology, Evolutionary Immunology, Developmental Biology, Marine Ecology
 
-Disciplines: Parasitology, Evolutionary Immunology, Developmental Biology, Marine Ecology
-
-## 
-
-The Enforcement Spectrum
+## The Enforcement Spectrum
 
 Identity enforcement exists along a spectrum:
 
@@ -321,13 +287,9 @@ No position is permanent.
 
 Pressure reshapes enforcement architecture.
 
-### 
+### Disciplines: Systems Ecology, Evolutionary Dynamics, Complex Systems Biology
 
-Disciplines: Systems Ecology, Evolutionary Dynamics, Complex Systems Biology
-
-## 
-
-Identity Enforcement Is Not Everything
+## Identity Enforcement Is Not Everything
 
 Identity enforcement is not synonymous with regulation.
 
@@ -345,9 +307,7 @@ That distinction preserves scope without inflation.
 
 Disciplines: Systems Physiology, Regulatory Biology, Theoretical Biology
 
-## 
-
-Conclusion
+## Conclusion
 
 Living systems must preserve organized gradients under finite energy.
 

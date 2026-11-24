@@ -9,7 +9,7 @@ Canonical framework: [Memory Prism v1.0 — DOI 10.5281/zenodo.19287268](https:/
 ## Start here
 
 - [The Framework](Framework) — the foundational framework artifact and source boundary.
-- [Starter Kit Checklist](Starter-Kit) — the six-question entry point.
+- [Starter Kit Checklist](Starter-Kit) — the six-question entry point (v1.1).
 - [How to Use Memory Prism](Using-Memory-Prism) — selective application and when to stop.
 - [The Seven Lenses](Seven-Lenses) — optional questions drawn from the seven supporting essays.
 - [FAQ](FAQ) — common distinctions.

@@ -6,10 +6,10 @@ These are a library of ways into a problem, not a seven-stage sequence. Select o
 Which constraints and configurations make this possible? What changes when the board changes?
 
 ## Audits
-Is anything detecting deviation and correcting it, or does the system simply cross a threshold? Not every system audits itself.
+Is anything detecting deviation against a viability envelope and correcting it, or does the system simply cross a threshold? Is disturbance outpacing correction? Not every system audits itself.
 
 ## Identity
-What makes this count as the same system? How is membership maintained under limited resources? Use this when continuity or membership is part of the puzzle.
+What may persist or operate within the boundary, in which roles and places, at what cost, and how are roles tolerated, restricted, displaced, removed or allowed to fade? Membership and role governance, not selfhood. Applying it beyond biology is an explicit extension; use it where there is a boundary and a conditional response.
 
 ## Flow Under Constraint
 What moves along which gradients or routes? How do repeated flows become paths, chokepoints, or dependencies?
@@ -21,7 +21,7 @@ Which pathways enable function, and how might those same pathways transmit stres
 Are we treating a behaviour or state as intrinsic when it depends on surrounding conditions? Keep the specific mechanism explicit.
 
 ## Accumulation Patterns
-What turns contact or repeated presence into connected structure? Which parts carry load, provide filler or reserve, and why might the structure be cheaper to maintain than dismantle?
+What turns contact or repeated presence into connected structure? Which parts carry load, which are cushioning or filler, and why might the structure be cheaper to maintain than dismantle?
 
 ## The lens test
 

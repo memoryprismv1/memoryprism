@@ -21,9 +21,7 @@ What differs is whether the system merely undergoes transition,
 
 or actively attempts to remain intact under disturbance.
 
-## 
-
-Threshold-Only Systems: Constraint Without Self-Maintenance
+## Threshold-Only Systems: Constraint Without Self-Maintenance
 
 Non-living systems possess thresholds.
 
@@ -35,9 +33,7 @@ They do not preserve internal gradients.
 
 They transition when limits are crossed.
 
-## 
-
-Atomic and Molecular Scale
+## Atomic and Molecular Scale
 
 Atoms occupy allowed quantum states.
 
@@ -59,13 +55,9 @@ No governance.
 
 Only physical law.
 
-### 
+### Disciplines: Quantum Mechanics, Atomic Physics, Physical Chemistry, Thermodynamics
 
-Disciplines: Quantum Mechanics, Atomic Physics, Physical Chemistry, Thermodynamics
-
-## 
-
-Material and Structural Scale
+## Material and Structural Scale
 
 Materials possess yield stress, fracture toughness, fatigue limits.
 
@@ -81,13 +73,9 @@ No internal stabilization attempt.
 
 Stress accumulates until structural limit is breached.
 
-### 
+### Disciplines: Materials Science, Solid Mechanics, Structural Engineering
 
-Disciplines: Materials Science, Solid Mechanics, Structural Engineering
-
-## 
-
-Geological, Planetary, Stellar Scale
+## Geological, Planetary, Stellar Scale
 
 Magma pressure exceeds rock strength → eruption.
 
@@ -105,13 +93,9 @@ Stored energy + constraint
 
 No internal governance layer intervenes.
 
-### 
+### Disciplines: Geophysics, Planetary Science, Stellar Physics, Cosmology
 
-Disciplines: Geophysics, Planetary Science, Stellar Physics, Cosmology
-
-## 
-
-Across non-living systems:
+## Across non-living systems:
 
 Energy input
 
@@ -125,9 +109,7 @@ There is no concept of viability.
 
 Only stability until constraint forces change.
 
-## 
-
-Emergence of Governance: The Bounded Gradient
+## Emergence of Governance: The Bounded Gradient
 
 Living systems introduce something new:
 
@@ -147,13 +129,11 @@ detection becomes necessary.
 
 This is the origin of audit.
 
-## 
-
-Viability Envelope: Formal Definition
+## Viability Envelope: Formal Definition
 
 A viability envelope is:
 
-\> The multidimensional range of internal states and external conditions within which a bounded system can maintain its defining gradients through available correction mechanisms.
+> The multidimensional range of internal states and external conditions within which a bounded system can maintain its defining gradients through available correction mechanisms.
 
 This definition contains four necessary conditions:
 
@@ -171,9 +151,7 @@ Rocks have thresholds.
 
 Cells have envelopes.
 
-## 
-
-Multidimensional Nature
+## Multidimensional Nature
 
 Viability is not one variable.
 
@@ -201,13 +179,9 @@ Disturbance rate ≤ correction rate.
 
 When disturbance outpaces correction, the envelope is breached.
 
-### 
+### Disciplines: Systems Physiology, Thermodynamics, Evolutionary Biology, Ecology
 
-Disciplines: Systems Physiology, Thermodynamics, Evolutionary Biology, Ecology
-
-## 
-
-Audit: Mapping Within the Envelope
+## Audit: Mapping Within the Envelope
 
 Audit is the mapping of system state onto its viability envelope.
 
@@ -231,13 +205,9 @@ If yes, correction activates.
 
 Without audit, repair cannot initiate.
 
-### 
+### Disciplines: Cellular Biology, Immunology, Systems Medicine
 
-Disciplines: Cellular Biology, Immunology, Systems Medicine
-
-## 
-
-Personalized Tolerance Distributions
+## Personalized Tolerance Distributions
 
 The viability envelope is not identical across systems.
 
@@ -267,13 +237,9 @@ Two individuals under identical disturbance may experience different mapping out
 
 Viability is relational.
 
-### 
+### Disciplines: Population Biology, Environmental Physiology, Nutritional Science, Evolutionary Ecology
 
-Disciplines: Population Biology, Environmental Physiology, Nutritional Science, Evolutionary Ecology
-
-## 
-
-Disturbance vs Correction Rate
+## Disturbance vs Correction Rate
 
 The central dynamic across all living systems is:
 
@@ -291,9 +257,7 @@ Even highly resilient organisms fail under constant overwhelming disturbance.
 
 Disciplines: Risk Theory, Epidemiology, Systems Engineering
 
-## 
-
-Elasticity and Microdamage
+## Elasticity and Microdamage
 
 Tolerance distributions can shift.
 
@@ -321,13 +285,9 @@ Break occurs when:
 
 Accumulated degradation + new disturbance exceed remaining correction capacity.
 
-### 
+### Disciplines: Biomechanics, Chronic Disease Biology, Structural Engineering
 
-Disciplines: Biomechanics, Chronic Disease Biology, Structural Engineering
-
-## 
-
-Normalization of Harm
+## Normalization of Harm
 
 Nothing prevents slow drift within the envelope.
 
@@ -345,13 +305,9 @@ Normalization of harm is not anomaly.
 
 It is constrained governance.
 
-### 
+### Disciplines: Evolutionary Ecology, Organizational Theory, Political Economy
 
-Disciplines: Evolutionary Ecology, Organizational Theory, Political Economy
-
-## 
-
-Dormancy and Mode Shift
+## Dormancy and Mode Shift
 
 When active maintenance becomes too costly, some systems shift operating modes.
 
@@ -371,13 +327,9 @@ A rock does not rehydrate itself.
 
 A tardigrade does.
 
-### 
+### Disciplines: Developmental Biology, Environmental Physiology, Evolutionary Biology
 
-Disciplines: Developmental Biology, Environmental Physiology, Evolutionary Biology
-
-## 
-
-Programmed Shutdown
+## Programmed Shutdown
 
 Not all envelope collapse is catastrophic.
 
@@ -395,13 +347,9 @@ Salmon death march is governance-driven.
 
 That distinction matters.
 
-### 
+### Disciplines: Life History Theory, Developmental Genetics, Gerontology
 
-Disciplines: Life History Theory, Developmental Genetics, Gerontology
-
-## 
-
-Civilizational Envelopes
+## Civilizational Envelopes
 
 Civilizations operate within viability envelopes too.
 
@@ -425,13 +373,9 @@ But intent does not override constraint.
 
 Disturbance rate exceeding correction capacity leads to contraction or collapse.
 
-### 
+### Disciplines: Economic History, Governance Studies, Systems Policy Analysis, Network Science
 
-Disciplines: Economic History, Governance Studies, Systems Policy Analysis, Network Science
-
-## 
-
-Converged Architecture
+## Converged Architecture
 
 Across scales:
 

@@ -7,15 +7,11 @@
 
 Abandon all ye previous definitions before you start reading.
 
-\---
+---
 
-## 
+## Memory: past’s etchings
 
-Memory: past’s etchings
-
-### 
-
-I am just a stone—until a translator says otherwise.
+### I am just a stone—until a translator says otherwise.
 
 The definition of memory usually relates to something stored—a social construct tied to recall, narrative, and consciousness. In this framework, memory is not what the dictionary says. Memory in the Memory Prism framework is a persistent structure shaped by past interactions, without storage of circumstances or intent.
 
@@ -47,13 +43,9 @@ Translator is structural interpretation.
 
 Meaning arises at their interface.
 
-## 
+## Constraints
 
-Constraints
-
-### 
-
-Everything can’t be everything
+### Everything can’t be everything
 
 Before anything can persist, the space of what is possible must be bounded.
 
@@ -67,13 +59,9 @@ They do not determine what survives.
 
 They define the outer walls of the room. They do not choose what remains inside it.
 
-## 
+## Editors
 
-Editors
-
-### 
-
-All surgeons report to the OR
+### All surgeons report to the OR
 
 No intent is required. Editors cut by consequence, not by choice.
 
@@ -105,13 +93,9 @@ Yesterday’s editor becomes today’s boundary condition.
 
 Editors are transient roles. Memory persists. Legacy hardens. Constraint bounds.
 
-## 
+## Let the board games begin
 
-Let the board games begin
-
-### 
-
-May the odds be ever in your favor.
+### May the odds be ever in your favor.
 
 (No players. No strategies. Only persistence under pressure.)
 
@@ -177,13 +161,9 @@ Local equilibrium does not override macro-constraint.
 
 Boards enforce alignment across scales.
 
-## 
+## The ledger
 
-The ledger
-
-### 
-
-Show me the money, honey
+### Show me the money, honey
 
 Accounting here is literal: energy in, energy out, and minimum payments required to keep structure intact.
 
@@ -195,13 +175,9 @@ When intake exceeds maintenance cost, growth is possible. When margins shrink, a
 
 Survival is not accumulation. It is continuous ability to meet minimum payments required to keep structure intact.
 
-## 
+## Viability Band and Correction Window
 
-Viability Band and Correction Window
-
-### 
-
-To be or not to be.
+### To be or not to be.
 
 Viability defines the range of disturbance within which architecture can absorb editing without collapse.
 
@@ -219,13 +195,9 @@ To exist is to remain inside a band.
 
 To collapse is to exceed it.
 
-## 
+## Elasticity, Inertia, and Lag
 
-Elasticity, Inertia, and Lag
-
-### 
-
-Bend or break.
+### Bend or break.
 
 Inertia resists change. Elasticity absorbs disturbance.
 
@@ -239,13 +211,9 @@ Lag between disturbance and collapse depends on elasticity, buffer depth, turnov
 
 Lag is not safety. It is often accumulated stress masked by inertia.
 
-## 
+## Feedback loops
 
-Feedback loops
-
-### 
-
-Purchasing power vs paycheck
+### Purchasing power vs paycheck
 
 What is commonly described as feedback is constraint assertion.
 
@@ -261,13 +229,9 @@ Cells possess division checkpoints. Species gate reproduction. Corporations unde
 
 Constraint assertion is enforcement triggered by overextension.
 
-## 
+## Dead, alive, maybe-dead, and never alive
 
-Dead, alive, maybe-dead, and never alive
-
-### 
-
-Credit, debit or cash?
+### Credit, debit or cash?
 
 Living matter is matter that must continuously acquire, manage, and account for energy to maintain organization against decay.
 
@@ -279,13 +243,9 @@ Fossils represent closed ledgers. Persistence continues only as legacy.
 
 Life is defined by open energy accounts.
 
-## 
+## Still standing
 
-Still standing
-
-### 
-
-Stable for now!
+### Stable for now!
 
 Architecture is the committed configuration of a system under constraints.
 
@@ -299,13 +259,9 @@ Stability is time-bound, conditional, scale-dependent, and diagnosed retrospecti
 
 Persistence favors elastic architectures. Rigid architectures concentrate stress until fracture.
 
-## 
+## Still stable, but for how long?
 
-Still stable, but for how long?
-
-### 
-
-Decades when nothing happens. Weeks when decades happen.
+### Decades when nothing happens. Weeks when decades happen.
 
 Accumulation under low mixing deepens memory while concealing instability.
 
@@ -325,13 +281,9 @@ Decades when nothing happens.
 
 Weeks when decades happen.
 
-## 
+## Conclusion
 
-Conclusion
-
-### 
-
-Same but different, different but same
+### Same but different, different but same
 
 Nothing in this framework predicts specific outcomes. Nothing guarantees survival. Nothing promises novelty.
 
@@ -365,9 +317,7 @@ That is memory, still at work.
 
 [Usage Instructions](https://www.memoryprism.com/usage) 
 
-## 
-
-Author’s Note
+## Author’s Note
 
 This was written with AI help. It is the culmination of a month-long chat with ChatGPT. I did not remember many early discussion points, so AI helped reconstruct them. I am also extremely lazy, not being paid, and not auditioning for anything, so delegation made sense.
 
@@ -383,29 +333,27 @@ That is not a weakness.
 
 That is memory at work.
 
-## 
-
-License
+## License
 
 Memory Prism (v1.0) is released for open intellectual use.
 
 You are free to:
 
-\- Read, share, and redistribute this work.
+- Read, share, and redistribute this work.
 
-\- Quote with attribution.
+- Quote with attribution.
 
-\- Build upon the framework for non-commercial purposes.
+- Build upon the framework for non-commercial purposes.
 
-\- Use it in research, academic writing, critique, or discussion.
+- Use it in research, academic writing, critique, or discussion.
 
 You may not:
 
-\- Sell this work.
+- Sell this work.
 
-\- Include it in paid products, courses, subscriptions, or commercial publications.
+- Include it in paid products, courses, subscriptions, or commercial publications.
 
-\- Monetize derivative works based on this framework without explicit written permission.
+- Monetize derivative works based on this framework without explicit written permission.
 
 Commercial use requires prior consent.
 
@@ -418,3 +366,5 @@ Creative Commons Attribution–NonCommercial 4.0 International (CC BY-NC 4.0)
 Full legal text available at:
 
 https://creativecommons.org/licenses/by-nc/4.0/
+
+[memory.prism.v1@gmail.com]

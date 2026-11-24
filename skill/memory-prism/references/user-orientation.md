@@ -42,7 +42,7 @@ How resources, energy, effort and coordination move through the system
 
 **Working Lines**
 
-Fault lines: existing weaknesses and places where stress or failure is likely to form
+The paths along which force, energy or coordination are already handled; stress or failure can also propagate along these functional paths.
 
 **Accumulation Patterns**
 

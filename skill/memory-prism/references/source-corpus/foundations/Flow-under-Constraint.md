@@ -11,9 +11,7 @@ What looks like open space is structured by gradients—of energy, resistance, t
 
 Before there are chokepoints, there are paths.
 
-## 
-
-Viability
+## Viability
 
 Movement exists where cost is sustainable.
 
@@ -23,13 +21,9 @@ Movement avoids what cannot be sustained.
 
 Cost defines where flow persists.
 
-### 
+### Disciplines: Physics, Biology, Ecology, Network Theory
 
-Disciplines: Physics, Biology, Ecology, Network Theory
-
-## 
-
-Preference
+## Preference
 
 Movement follows gradients, not geometry.
 
@@ -39,13 +33,9 @@ The shortest path minimizes distance.
 
 The viable path minimizes cost.
 
-### 
+### Disciplines: Fluid Dynamics, Physiology, Ecology, Infrastructure Systems
 
-Disciplines: Fluid Dynamics, Physiology, Ecology, Infrastructure Systems
-
-## 
-
-Convergence
+## Convergence
 
 Shared constraints produce shared paths.
 
@@ -55,13 +45,9 @@ Repeated preference creates structure.
 
 Structure emerges without control.
 
-### 
+### Disciplines: Ecology, Transportation Systems, Network Theory, Systems Biology
 
-Disciplines: Ecology, Transportation Systems, Network Theory, Systems Biology
-
-## 
-
-Memory
+## Memory
 
 Repetition stabilizes movement.
 
@@ -71,13 +57,9 @@ What is repeated becomes persistent.
 
 Memory preserves structure.
 
-### 
+### Disciplines: Ecology, Neuroscience, Infrastructure Systems, Machine Learning
 
-Disciplines: Ecology, Neuroscience, Infrastructure Systems, Machine Learning
-
-## 
-
-Compression
+## Compression
 
 Convergence reduces alternatives.
 
@@ -87,13 +69,9 @@ As paths narrow, effects intensify.
 
 Compression amplifies difference.
 
-### 
+### Disciplines: Anatomy, Geography, Network Engineering, Systems Theory
 
-Disciplines: Anatomy, Geography, Network Engineering, Systems Theory
-
-## 
-
-Continuity
+## Continuity
 
 Some flows cannot stop.
 
@@ -103,13 +81,9 @@ Where flow cannot stop, disruption becomes decisive.
 
 Time becomes constraint.
 
-### 
+### Disciplines: Physiology, Ecology, Infrastructure Systems, Information Systems
 
-Disciplines: Physiology, Ecology, Infrastructure Systems, Information Systems
-
-## 
-
-Forms of Flow
+## Forms of Flow
 
 Structure determines behavior.
 
@@ -119,13 +93,9 @@ No structure is universally optimal.
 
 Behavior follows arrangement.
 
-### 
+### Disciplines: Biology, Ecology, Systems Engineering, Physics
 
-Disciplines: Biology, Ecology, Systems Engineering, Physics
-
-## 
-
-Exploitation
+## Exploitation
 
 Access enables distribution.
 
@@ -135,13 +105,9 @@ Entry is sufficient for spread.
 
 Flow becomes distribution.
 
-### 
+### Disciplines: Epidemiology, Parasitology, Cybersecurity, Media Systems
 
-Disciplines: Epidemiology, Parasitology, Cybersecurity, Media Systems
-
-## 
-
-Position
+## Position
 
 Location determines leverage.
 
@@ -151,13 +117,9 @@ Position outweighs capacity.
 
 Flow defines importance.
 
-### 
+### Disciplines: Anatomy, Ecology, Network Theory, Infrastructure Systems
 
-Disciplines: Anatomy, Ecology, Network Theory, Infrastructure Systems
-
-## 
-
-Conclusion
+## Conclusion
 
 Movement does not need to be directed to become structured.
 
