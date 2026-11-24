@@ -12,11 +12,13 @@ Memory Prism is a way to enter unfamiliar topics by asking what conditions make 
 - [License](../LICENSE.md) — CC BY-NC 4.0 scope and reuse notes.
 
 - [The Framework](framework.md) — the foundational PDF and how this documentation relates to it.
-- [Starter Kit Checklist](../starter-kit/Memory-Prism-Starter-Kit-Checklist-v1.0.md) — the canonical full checklist.
+- [Starter Kit Checklist](../starter-kit/Memory-Prism-Starter-Kit-Checklist-v1.1.md) — the canonical full checklist.
 - [How to Use Memory Prism](using-memory-prism.md) — selective use, research, and when to stop.
 - [The Seven Lenses](seven-lenses.md) — the framework’s seven supporting essays as optional lenses.
 - [AI Skill Package](../skill/README.md) — platform-neutral instructions for assistants.
-- [Smoke Tests](../skill/tests/SMOKE_TESTS.md) — small tests for checking whether the skill behaves as intended.
+- [Smoke Tests](../tests/smoke/SMOKE_TESTS.md) — small tests for checking whether the skill behaves as intended.
+- [Daily tests](../tests/daily/README.md) and [scoring](../tests/daily/SCORING.md) — the two-topic daily protocol and its rubric.
+- [Checklist verification](checklist-verification.md) — what was checked against the Framework and essays, and what changed.
 - [FAQ](faq.md) — common distinctions and usage questions.
 
 ## The basic movement

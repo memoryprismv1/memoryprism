@@ -6,7 +6,7 @@ The PDF defines the Memory Prism framework. The companion checklist and skill he
 
 ## How to read this repository
 
-- **Framework PDF:** the foundational source.
+- **Framework PDF:** the foundational source. A searchable Markdown rendering, verified against the PDF, sits in the [source corpus](../skill/memory-prism/references/source-corpus/Memory-Prism-Framework.md).
 - **Seven supporting essays:** the specified supporting reading for deriving the starter kit.
 - **Starter Kit checklist:** the lightweight entry point for unfamiliar topics.
 - **AI skill:** operating instructions for assistants using the checklist.
