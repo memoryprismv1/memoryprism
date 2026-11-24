@@ -80,7 +80,6 @@ Some become infrastructure. Blood vessels, nerve bundles, crystal lattices—hig
 > The more a line is optimized for flow, the more consequential its failure.
 
 ### Disciplines: Systems Biology, Network Theory, Infrastructure Systems, Physiology
-
 ## There are also systems where lines never fully form.
 
 Amorphous materials—like glass—have local connections but no global alignment. There are bonds, but no shared direction. No grain, no planes, no inherited pathways.
@@ -123,7 +122,7 @@ The system does not avoid breaking. It decides where the break will occur.
 
 ### Disciplines: Mechanical Engineering, Safety Engineering, Evolutionary Biology, Design Theory
 
-## Cooperation to  dissolution 
+## Cooperation to  dissolution
 
 Across scales, the same structure repeats:
 
@@ -165,7 +164,7 @@ Even the Earth follows the same pattern. It is divided into plates—large regio
 
 > Lines do not just guide structure. They also store the tension of what they are holding back.
 
-## Lines of continuity 
+## Lines of continuity
 
 This is not a story of weakness.
 
