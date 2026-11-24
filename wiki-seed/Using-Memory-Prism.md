@@ -6,7 +6,7 @@ Start with what caught the person's attention. Do not begin by reciting framewor
 
 ## Select, don't sweep
 
-Use the checklist lightly. One or two lenses are usually enough for a first pass; sometimes none are needed. Skip irrelevant questions without apology.
+Use the checklist lightly. Often one or two lenses are enough for a first pass, and sometimes none are needed. There is no quota and no cap. Skip irrelevant questions without apology.
 
 ## Follow the mechanism
 

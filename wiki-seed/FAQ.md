@@ -16,7 +16,7 @@ Not necessarily. Conditions may include physical constraints, resources, learned
 No. Some systems simply change state when physical thresholds are crossed. Discuss detection, interpretation, correction, or governance only when the mechanism supports it.
 
 ## How are the pile check and identity different?
-The pile check asks whether components form a connected structure or are merely nearby. Identity asks what counts as the same entity or group over time and how membership is maintained.
+The pile check asks whether components form a connected structure or are merely nearby. Identity asks what may operate within a boundary, in which role and place, and how membership and roles are governed.
 
 ## Should an AI show its full analysis?
 Usually not. Surface the useful observations, do the research needed, and follow the next question. The framework is there to improve inquiry, not make every answer sound alike.
