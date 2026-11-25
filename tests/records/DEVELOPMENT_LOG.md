@@ -82,6 +82,10 @@
 - [Periodical Cicadas: How a 13- or 17-Year Cohort Emerges Together](periodical_cicada_emergence_synchrony_2026-11-24.md) — Test MP-2026-11-24-01; assistant-generated literature-informed synthesis separates long-term 13-/17-year developmental scheduling, proposed 4-year readiness gates, spring soil-warming release, and predator satiation. The 2025 field study supports the gate hypothesis, but the internal clock remains unknown; no new observation or experiment.
 - [Software Daily Test: Crash-Safe Atomic Replacement of a Configuration File](software_atomic_file_replacement_crash_durability_2026-11-24.md) — Test MP-SOFTWARE-2026-11-24-01; documentation-grounded Linux analysis distinguishes atomic rename visibility from crash durability and sets out the temporary-write, file-fsync, rename, parent-directory-fsync sequence. Covers failure windows, concurrent writers, metadata and filesystem caveats; no code or crash test executed.
 
+
+- [Mussel Underwater Glue: How a Wet Adhesive Is Made and Cured](mussel_underwater_glue_curing_2026-11-25.md) — Test MP-2026-11-25-01; assistant-generated literature-informed synthesis. Separates DOPA-mediated surface adhesion, mefp-12/zinc-dependent porous scaffold curing and thread-level energy dissipation; incorporates the 2026 primary study. Scores: IQ 12/12, MPF 12/12; self-scored, same-context, unblinded. No new biological experiment.
+- [Linux Multi-Gen LRU and Memory Reclaim Under Pressure](software_linux_multigen_lru_memory_reclaim_2026-11-25.md) — Test MP-SOFTWARE-2026-11-25-01; assistant-generated documentation-grounded scenario. Explains generation-based aging, tiered eviction and refault feedback; distinguishes workload phase change from persistent under-protection. Scores: IQ 12/12, MPF 12/12; self-scored, same-context, unblinded. No live kernel run or benchmark.
+
 ## Collection rule
 
 One substantive experiment per file. Keep transfer checks and related observations inside their parent experiment record. Batch collation and cumulative topic reports belong to downstream peer-review/reporting bots, not the daily test collector.
