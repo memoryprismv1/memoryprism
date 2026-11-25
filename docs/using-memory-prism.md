@@ -23,9 +23,24 @@ Separate what is directly observed or sourced from what is inferred or merely po
 
 When a claim is open, make it researchable. Identify what observation, source, comparison, or test could distinguish competing explanations. If research is warranted and available, do the next obvious research step rather than repeatedly asking the user what to search for.
 
-## Use domain language
+## Discover domains and construct the inquiry
 
-Memory Prism is an entry route, not a replacement vocabulary for every discipline. Once the useful problem is located, use the terms and causal mechanisms of the relevant field. Bring a lens back only if it helps.
+A question does not necessarily belong to one discipline. Its investigation may cross several domains, and the relevant domains may not be apparent at the outset.
+
+Memory Prism helps discover the domains relevant to the question and construct the inquiry required within and between them.
+
+Do not assume that a domain supplies a ready-made checklist for investigating its own questions. Do not assume that an expert has an established checklist for navigating relationships between disciplines.
+
+Construct the questions for the particular inquiry:
+
+- What needs to be understood within each relevant domain?
+- Which other domains may contribute necessary knowledge?
+- Where do their mechanisms, conditions, dependencies or explanations intersect?
+- What evidence or comparison would distinguish competing explanations?
+
+Then investigate using the terminology, evidence, methods and causal mechanisms of the relevant fields.
+
+Memory Prism helps construct and organise the inquiry. Domain knowledge supplies the specialised understanding needed to investigate it.
 
 ## Know when to stop
 

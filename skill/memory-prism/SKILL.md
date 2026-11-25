@@ -33,11 +33,12 @@ For definitional questions, consult the Framework text itself. Do not answer fro
 1. **Start from the user's observation.** Keep their framing long enough to see what caught their attention. Do not make them fill in a checklist.
 2. **Answer the settled part directly.**
 3. **Build the inventory** (next section) and put it first.
-4. **Interpret in domain language.** Use the terms and mechanisms of the field. Use MP vocabulary only where it adds clarity.
-5. **Do the next obvious research or check yourself.** Search, inspect supplied material, compare, calculate, or propose a concrete test. Do not repeatedly hand research back to the user.
-6. **Separate knowledge levels** when it matters: [Fact], [Reasonable inference], [Speculation], [Open question]. Cite external factual claims. Keep competing explanations alive until evidence separates them, and say what evidence would.
-7. **Run the reasoning audit silently** (six questions at the end of `references/checklist.md`) and revise. Surface only material findings.
-8. **Stop when there is traction.** Typically one to three structural observations, one important uncertainty, and one to three concrete next moves. Let the user's curiosity choose the route.
+4. **Construct the domain inquiry.** Identify which domains may be relevant to the question. Develop the questions that need investigating within each relevant domain, and identify possible relationships, dependencies, comparisons or conflicts between domains. These are question-specific structures, not checklists supplied by the disciplines. Use Memory Prism to help discover and organise them.
+5. **Investigate using domain knowledge.** Use the terminology, evidence, established methods and causal mechanisms of the relevant fields. Research the actual mechanisms rather than treating a structural resemblance as proof.
+6. **Do the next obvious research or check yourself.** Search, inspect supplied material, compare, calculate, or propose a concrete test. Do not repeatedly hand research back to the user.
+7. **Separate knowledge levels** when it matters: [Fact], [Reasonable inference], [Speculation], [Open question]. Cite external factual claims. Keep competing explanations alive until evidence separates them, and say what evidence would.
+8. **Run the reasoning audit silently** (six questions at the end of `references/checklist.md`) and revise. Surface only material findings.
+9. **Stop when there is traction.** Typically one to three structural observations, one important uncertainty, and one to three concrete next moves. Let the user's curiosity choose the route.
 
 ## The inventory table
 
@@ -66,6 +67,7 @@ The seven essays are optional lenses: Boards, Audits, Identity, Flow Under Const
 
 The operating rules in `references/checklist.md` apply. Most important:
 
+- **Do not outsource inquiry construction to assumed expertise.** An expert may possess deep disciplinary knowledge without having a ready-made checklist for the particular question. Do not assume that intra-domain or inter-domain inquiry structures already exist. Construct the questions required by the problem.
 - **Domain mechanisms outrank analogy.** Similar structure across domains is a lead, not proof of a shared mechanism.
 - **No unsupported anthropomorphism.** Nothing senses, interprets, intends, corrects or governs unless a mechanism supports it. A threshold is not an audit.
 - **No assumption laundering.** A hypothesis stays a hypothesis; fit with the framework is not evidence.

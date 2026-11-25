@@ -14,7 +14,13 @@
 
 ![Memory Prism entry map](assets/memory-prism-entry-map.svg)
 
-Memory Prism is a way to enter an unfamiliar problem by examining the conditions under which things form, move, persist and fail. It opens an investigation. It does not replace domain knowledge, prescribe every step, or turn curiosity into a checklist exercise.
+Memory Prism is a structural framework for entering and investigating problems by examining the conditions under which things form, move, persist and fail.
+
+It helps construct the inquiry required by a particular question: identifying relevant domains, developing questions within those domains, and discovering relationships between them.
+
+Domains provide specialised knowledge, concepts, evidence and established methods. They do not supply a ready-made inquiry checklist for every question, either within their own boundaries or across disciplinary boundaries. Those questions and inquiry structures must be developed for the problem at hand.
+
+Memory Prism helps construct that structure. It does not replace domain expertise or evidence-based investigation, prescribe every step, or turn curiosity into a checklist exercise.
 
 The published **Framework** is the primary source. Everything else here is a companion tool for applying it.
 

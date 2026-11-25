@@ -3,6 +3,15 @@
 ## Is Memory Prism an exhaustive analysis protocol?
 No. The starter kit is an entry point into inquiry. It helps find a useful initial route and stops once a productive next question appears.
 
+
+## Do domains come with established inquiry checklists?
+
+No. Domains contain specialised knowledge, concepts, evidence and established methods, but they do not provide a ready-made checklist for every question within their boundaries. Nor is there a universal checklist for investigating relationships between domains.
+
+Intra-domain and inter-domain inquiry structures must be constructed for the particular question. Expertise does not remove that requirement.
+
+Memory Prism helps identify relevant domains, develop the questions that need investigating within them, and discover the relationships that need to be examined between them.
+
 ## Must every question be answered?
 No. Skip anything that adds no explanatory value. The questions are prompts, not mandatory stages.
 
