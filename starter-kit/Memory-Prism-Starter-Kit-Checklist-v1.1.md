@@ -8,6 +8,24 @@ Help a person enter an unfamiliar topic and find a productive first route of inq
 
 This is a starter kit, not an exhaustive audit, a substitute for domain knowledge, a complete answer, or a wiki generator. It should speed up inquiry without prescribing the route or taking curiosity away from the person.
 
+### Domain knowledge and inquiry construction
+
+Domains do not come with ready-made inquiry checklists.
+
+There is no universally established checklist for investigating every question within a domain. Nor is there a universal checklist for identifying and investigating relationships between domains.
+
+Knowing a discipline, or having access to an expert, does not automatically provide the inquiry structure needed for a particular question. The relevant questions, evidence requirements, comparisons and connections must be identified and organised for that inquiry.
+
+Memory Prism helps construct this structure:
+
+- **Intra-domain inquiry:** What needs to be investigated within each relevant domain?
+- **Inter-domain inquiry:** Which other domains matter, and what relationships, dependencies, differences or conflicts need examination?
+- **Domain investigation:** What specialised knowledge, evidence, methods and causal mechanisms are needed to investigate those questions?
+
+These structures are created for the question. They are not supplied automatically by the domain.
+
+The checklist is a starting instrument for constructing inquiry, not a substitute for the work of constructing it.
+
 The checklist has done its job when it helps identify a useful next move. Completion is not the goal.
 
 ## Source boundary
