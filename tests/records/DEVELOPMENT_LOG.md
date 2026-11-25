@@ -86,6 +86,8 @@
 - [Mussel Underwater Glue: How a Wet Adhesive Is Made and Cured](mussel_underwater_glue_curing_2026-11-25.md) — Test MP-2026-11-25-01; assistant-generated literature-informed synthesis. Separates DOPA-mediated surface adhesion, mefp-12/zinc-dependent porous scaffold curing and thread-level energy dissipation; incorporates the 2026 primary study. Scores: IQ 12/12, MPF 12/12; self-scored, same-context, unblinded. No new biological experiment.
 - [Linux Multi-Gen LRU and Memory Reclaim Under Pressure](software_linux_multigen_lru_memory_reclaim_2026-11-25.md) — Test MP-SOFTWARE-2026-11-25-01; assistant-generated documentation-grounded scenario. Explains generation-based aging, tiered eviction and refault feedback; distinguishes workload phase change from persistent under-protection. Scores: IQ 12/12, MPF 12/12; self-scored, same-context, unblinded. No live kernel run or benchmark.
 
+- [Machine Maintenance: Memory Prism Across Physical Systems](machine_maintenance_memory_prism_field_test_2026-11-25.md) — 2026-11-25 cross-case synthesis across nine machine cases (drill press, bandsaw, compressors, sewing unit, pump, generator, excavator and CNC). Records the recurring roles of the Ledger, machine-specific Board architecture, intervention-generated obligations, dependency propagation, evidence context, and the distinction between repair, restoration and durable correction. Desk-based OEM-document exercise, not physical inspections or a controlled performance evaluation.
+
 ## Collection rule
 
 One substantive experiment per file. Keep transfer checks and related observations inside their parent experiment record. Batch collation and cumulative topic reports belong to downstream peer-review/reporting bots, not the daily test collector.
