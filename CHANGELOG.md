@@ -1,5 +1,18 @@
 # Changelog
 
+## 2026-11-26 — Three inquiry modes and session tests
+
+### What changed
+- Made assistant-led, person-led and mixed inquiry first-class modes in the Memory Prism skill. Assistant-led remains the default for broad/open-ended inquiry; person-led preserves the person's reasoning and uses the assistant as the research arm; mixed inquiry allows the lead to shift without resetting the map.
+- Added the person-led method reference.
+- Added session findings and new test records covering person-led inquiry, machine maintenance, blind invented-machine maintenance and paper-design viability, bread staling, TLS certificate deployment, and related smoke tests.
+- Preserved Ledger as a core Framework concept and retained the seven essays as optional lenses.
+
+### Review notes
+- The person-led reference and session findings are included for owner review.
+- The two invented-machine blind comparisons are single-run evaluations using agents from the same model family; results are evidence, not proof.
+- Some record source checks are based on abstracts, snippets or secondary sources, as disclosed in the individual records.
+
 ## 2026-11-23 — Restructure, checklist v1.1, daily scoring
 
 ### Why

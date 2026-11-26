@@ -1,6 +1,6 @@
 ---
 name: memory-prism
-description: Apply the Memory Prism framework (memory, constraints, editors, boards, ledger, translators, viability) to enter an unfamiliar topic or explain an observation by asking what makes something form, persist, change or fail. Works for science, engineering, software and operations, history, and everyday puzzles. Opens with a short concept-mapping table, does the next research step itself, and ends with a sharper next question. Use whenever the user mentions Memory Prism, MP, P-Memory, boards, editors, ledger, the starter kit or the seven lenses, asks what Memory Prism means, or poses an open-ended "why does X persist, drift, fail or behave differently here?" question. Do not use for settled facts, simple transformations, or routine procedures.
+description: Apply the Memory Prism framework (memory, constraints, editors, boards, ledger, translators, viability) to enter an unfamiliar topic or explain an observation by asking what makes something form, persist, change or fail. Works for science, engineering, software and operations, history, and everyday puzzles. In assistant-led inquiry, opens with a short concept-mapping table and does the next research step itself; supports person-led and mixed inquiry without taking over the person's reasoning. Use whenever the user mentions Memory Prism, MP, P-Memory, boards, editors, ledger, the starter kit or the seven lenses, asks what Memory Prism means, or poses an open-ended "why does X persist, drift, fail or behave differently here?" question. Do not use for settled facts, simple transformations, or routine procedures.
 ---
 
 # Memory Prism
@@ -23,26 +23,38 @@ Load only what the question needs. Never read all of it by default.
 | Mapping onto concepts; a distinction matters (constraint/editor, ledger/flow, audit/threshold) | `references/concepts.md` |
 | Considering a specific lens | the entry in `references/lenses.md`, then the essay itself if wording matters |
 | What Memory Prism *means*, its definitions, boundaries or intended reading | `references/source-corpus/Memory-Prism-Framework.md` first, then only the relevant essay in `references/source-corpus/foundations/` or `supplementary/` |
+| The person is leading the inquiry: they map the topic themselves, run "if this happens, what must be true?" thought experiments, or use Memory Prism as their own thinking tool | `references/person-led.md` — roles, the loop, how to respond to their map and turn thought experiments into required processes |
 | Checking your reading of a concept against the user's own wording | `references/user-orientation.md`. It is a check, not a source: where it differs from the Framework or an essay, the source governs. Known case: Working Lines are functional pathways where force, energy or coordination already move; failure can follow those same paths. They are not pre-existing weaknesses. |
 | Provenance, licence, canonical URLs | `references/source-corpus/README.md` |
 
 For definitional questions, consult the Framework text itself. Do not answer from the checklist or from memory, do not swap in generic systems theory, and do not treat a claim in the source as empirically verified just because it is there. If exact wording or layout matters, the PDF at the repository root is canonical.
 
+## Three ways to run an inquiry
+
+Memory Prism supports three first-class modes. They share the Framework, core concepts, Ledger, evidence standards and reasoning discipline; the difference is who is currently leading the inquiry.
+
+- **Assistant-led (default for broad or open-ended inquiries):** construct the initial map, identify the next research step and carry it out. Keep the user able to redirect the route.
+- **Person-led:** the person does the reasoning, mapping and route selection; the assistant is the research arm. Read `references/person-led.md`. Do not pre-empt the person's reasoning with an assistant-generated inventory.
+- **Mixed:** the lead can move naturally between person and assistant. Preserve the map and reasoning already established; do not reset the inquiry, repeat the inventory or demand a mode command.
+
+The user may state or change the mode, but do not interrupt to ask them to choose. Infer the current lead from the interaction and adapt. In person-led and mixed inquiry, the assistant remains an active researcher rather than a passive evaluator.
+
 ## Workflow
 
-1. **Start from the user's observation.** Keep their framing long enough to see what caught their attention. Do not make them fill in a checklist.
-2. **Answer the settled part directly.**
-3. **Build the inventory** (next section) and put it first.
-4. **Construct the domain inquiry.** Identify which domains may be relevant to the question. Develop the questions that need investigating within each relevant domain, and identify possible relationships, dependencies, comparisons or conflicts between domains. These are question-specific structures, not checklists supplied by the disciplines. Use Memory Prism to help discover and organise them.
-5. **Investigate using domain knowledge.** Use the terminology, evidence, established methods and causal mechanisms of the relevant fields. Research the actual mechanisms rather than treating a structural resemblance as proof.
-6. **Do the next obvious research or check yourself.** Search, inspect supplied material, compare, calculate, or propose a concrete test. Do not repeatedly hand research back to the user.
-7. **Separate knowledge levels** when it matters: [Fact], [Reasonable inference], [Speculation], [Open question]. Cite external factual claims. Keep competing explanations alive until evidence separates them, and say what evidence would.
-8. **Run the reasoning audit silently** (six questions at the end of `references/checklist.md`) and revise. Surface only material findings.
-9. **Stop when there is traction.** Typically one to three structural observations, one important uncertainty, and one to three concrete next moves. Let the user's curiosity choose the route.
+1. **Identify the current lead.** In assistant-led inquiry, proceed with the assistant-built inventory. In person-led inquiry, start from the person's own map and reasoning. In mixed inquiry, preserve the map already in progress and let the lead shift naturally.
+2. **Start from the user's observation.** Keep their framing long enough to see what caught their attention. Do not make them fill in a checklist.
+3. **Answer the settled part directly.**
+4. **Build the inventory** (next section) and put it first only when assistant-led inquiry calls for it; do not replace a person-led map with an assistant-generated one.
+5. **Construct the domain inquiry.** Identify which domains may be relevant to the question. Develop the questions that need investigating within each relevant domain, and identify possible relationships, dependencies, comparisons or conflicts between domains. These are question-specific structures, not checklists supplied by the disciplines. Use Memory Prism to help discover and organise them.
+6. **Investigate using domain knowledge.** Use the terminology, evidence, established methods and causal mechanisms of the relevant fields. Research the actual mechanisms rather than treating a structural resemblance as proof.
+7. **Do the next obvious research or check yourself.** Search, inspect supplied material, compare, calculate, or propose a concrete test. Do not repeatedly hand research back to the user.
+8. **Separate knowledge levels** when it matters: [Fact], [Reasonable inference], [Speculation], [Open question]. Cite external factual claims. Keep competing explanations alive until evidence separates them, and say what evidence would.
+9. **Run the reasoning audit silently** (six questions at the end of `references/checklist.md`) and revise. Surface only material findings.
+10. **Stop when there is traction.** Typically one to three structural observations, one important uncertainty, and one to three concrete next moves. Let the user's curiosity choose the route.
 
 ## The inventory table
 
-For an exploratory question where Memory Prism is in use, the first substantive part of the reply is a compact table. It is an inspectable map of your reading, placed before any interpretation, so the user can correct it.
+In assistant-led exploratory inquiry, the first substantive part of the reply is a compact table. It is an inspectable map of the assistant's reading, placed before interpretation, so the person can correct it. It is not a universal opening requirement: person-led inquiry starts with the person's map, and mixed inquiry preserves whichever map is already being built.
 
 | MP concept | What I identify in this query |
 |---|---|
@@ -53,7 +65,7 @@ Rules:
 - Mark candidate mappings as candidates, not findings.
 - Use **P-Memory (Persistent Memory)** as the label for the Memory concept. It covers naturally occurring structures as well as produced ones. An intended goal is one case, not a requirement.
 - Do not infer an editor merely because something changed, an audit merely because a state was restored, or a translator merely because something is measured.
-- Do not add the table for settled facts, simple transformations, or when MP is not being invoked.
+- Do not add the table for settled facts, simple transformations, when MP is not being invoked, or when person-led inquiry is already underway.
 
 ## Core concepts versus optional lenses
 
