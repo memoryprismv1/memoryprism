@@ -98,6 +98,9 @@
 - [Invented-Machine Blind Test 1: Maintenance (TSM-40)](invented_machine_tsm40_blind_maintenance_2026-11-26.md) — Test MP-BLIND-2026-11-26-01; fictional machine with hidden key, isolated agents, blind scorer. Tie 44/46 vs 44/46; ceiling effect from a design-summary section. MP intervals again too frequent (7 vs 0 too rare).
 - [Invented-Machine Blind Test 2: Paper-Design Viability (TSM-40)](invented_machine_tsm40_blind_viability_2026-11-26.md) — Test MP-BLIND-2026-11-26-02; design summary removed. Both reviews: do not build as drawn (energy budget ≈40–55% of claimed output, confirmed by scorer). MP 38 vs plain 35 of 46; MP 5 vs 3 important extra issues. Small, single-run lead.
 
+- [Railway Track Thermal Expansion and Continuous Welded Rail](railway_track_thermal_expansion_cwr_2026-11-26.md) — Test MP-2026-11-26-01; assistant-generated synthesis, single MP-guided condition. Explains CWR neutral-temperature control and the distinct roles of rail thermal force and track lateral resistance; flags unverified SEJ detail and late inventory. Scores: IQ 8/12, MPF 7/12; self-scored, same-context, unblinded. Limits: FRA-focused documentation review, no live track test.
+- [Software Daily Test: Message Ordering and Delivery Guarantees](software_message_ordering_delivery_guarantees_2026-11-26.md) — Test MP-SOFTWARE-2026-11-26-01; assistant-generated synthesis, single MP-guided condition. Compares Kafka partitions, RabbitMQ queues/streams and Pulsar Key_Shared; distinguishes broker order, processing order, retries, idempotency and producer dual writes. Scores: IQ 9/12, MPF 7/12; self-scored, same-context, unblinded. Limits: official documentation review, no live broker or fault-injection test.
+
 ## Collection rule
 
 One substantive experiment per file. Keep transfer checks and related observations inside their parent experiment record. Batch collation and cumulative topic reports belong to downstream peer-review/reporting bots, not the daily test collector.
