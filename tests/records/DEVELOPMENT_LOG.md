@@ -109,6 +109,8 @@
 
 - [Accumulation Patterns in Venture Viability: Homejoy, Katerra and Grab/Uber](accumulation_patterns_venture_viability_2026-11-27.md) — exploratory, user-led case-study synthesis. Identifies trust and continuity as accumulated relational value in home services; accumulation without integration in vertically integrated construction; and locally embedded relationships and network effects in platform competition. Explicitly records that these are hypotheses, not source-verified historical explanations or a controlled MP evaluation; proposes blind pre-outcome testing.
 
+- [Wheel Design Structural Tests](wheel_design_structural_tests_2026-11-28.md) — Test collection MP-WHEELS-2026-11-28; two assistant-led batches covering five initial wheel architectures and six harder vehicle/tyre cases. Records coupled-system constraints, operating-envelope mismatch, service-network dependencies, application mismatch and evidence-specificity limits. Includes retrospective source checks and a user-supplied observational transfer from long cargo-hauler turns; explicitly not a blind or predictive-accuracy test.
+
 ## Collection rule
 
 One substantive experiment per file. Keep transfer checks and related observations inside their parent experiment record. Batch collation and cumulative topic reports belong to downstream peer-review/reporting bots, not the daily test collector.
